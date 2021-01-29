@@ -20,7 +20,8 @@ public class GameManager : MonoBehaviour
     public List<GameObject> objectsToCatch;
 
     public List<Transform> spawnPoints;
-    
+
+    private bool _playOnce = true;
 
     #region singleton
 
@@ -72,7 +73,7 @@ public class GameManager : MonoBehaviour
             timerEndLevelSecond = 59;
         }
 
-        if (timerEndLevelSecond <= 10)
+        if (timerEndLevelSecond <= 9.5)
         {
             _txtSecond = "0" + timerEndLevelSecond.ToString("F0");
         }
@@ -81,9 +82,14 @@ public class GameManager : MonoBehaviour
             _txtSecond = timerEndLevelSecond.ToString("F0");
         }
 
-        if (timerEndLevelMinute == 0 && timerEndLevelSecond <= 30)
+        if (timerEndLevelMinute == 0 && timerEndLevelSecond <= 30 && _playOnce)
         {
-            timerTxt.transform.DOScale(new Vector3(2,2,1),.5f ).SetLoops(30, LoopType.Yoyo);
+            _playOnce = false;
+            Sequence mySequence = DOTween.Sequence();
+            mySequence.Append(timerTxt.transform.DORotate(new Vector3(0, 0,30),.1f));
+            mySequence.Append(timerTxt.transform.DORotate(new Vector3(0, 0, -30), 1f).SetLoops(30, LoopType.Yoyo));
+            timerTxt.transform.DOScale(new Vector3(1.5f,1.5f,1),1f ).SetLoops(30, LoopType.Yoyo);
+            timerTxt.transform.GetComponent<TextMeshProUGUI>().DOColor(Color.red, 1).SetLoops(30, LoopType.Yoyo);
         }
     }
 
