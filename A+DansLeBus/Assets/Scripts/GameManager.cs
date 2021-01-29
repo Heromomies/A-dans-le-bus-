@@ -2,22 +2,25 @@
 using TMPro;
 using UnityEngine;
 using Random = UnityEngine.Random;
+using DG.Tweening;
 
 
 public class GameManager : MonoBehaviour
 {
     public float timerEndLevelSecond;
+    
     public int timerEndLevelMinute;
+    public int numbersObjectsToFind;
 
-
-    public TextMeshProUGUI timerTxt;
     private string _txtSecond;
-
+    
+    public GameObject timerTxt;
+    
     public List<GameObject> allGameObjects;
     public List<GameObject> objectsToCatch;
 
     public List<Transform> spawnPoints;
-    public int numbersObjectsToFind;
+    
 
     #region singleton
 
@@ -56,7 +59,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         timerEndLevelSecond -= Time.deltaTime;
-        timerTxt.text = timerEndLevelMinute + " : " + _txtSecond;
+        timerTxt.GetComponent<TextMeshProUGUI>().text = timerEndLevelMinute + " : " + _txtSecond;
         if (timerEndLevelSecond <= 0 && timerEndLevelMinute <= 0)
         {
             timerEndLevelSecond = 0;
@@ -77,11 +80,16 @@ public class GameManager : MonoBehaviour
         {
             _txtSecond = timerEndLevelSecond.ToString("F0");
         }
+
+        if (timerEndLevelMinute == 0 && timerEndLevelSecond <= 30)
+        {
+            timerTxt.transform.DOScale(new Vector3(2,2,1),.5f ).SetLoops(30, LoopType.Yoyo);
+        }
     }
 
-    public void CheckIfVictory(List<GameObject> gameObjectsGetByPlayer)
+    public void CheckIfVictory(int nbGameObjectPlayer)
     {
-        if (gameObjectsGetByPlayer.Count == objectsToCatch.Count)
+        if (nbGameObjectPlayer == objectsToCatch.Count)
         {
             //TODO C'est la win
             Debug.Log("VICTOIRE");
