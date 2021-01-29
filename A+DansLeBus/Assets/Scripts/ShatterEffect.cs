@@ -23,9 +23,10 @@ public class ShatterEffect : MonoBehaviour
     {
         if (other.gameObject.GetComponent<PlayerMovement>())
         {
-            GameObject gameObject = Instantiate(destroyable_obj, transform.position, Quaternion.identity); ;
+            GameObject gameObject = Instantiate(destroyable_obj, transform.position, Quaternion.identity);
+            gameObject.transform.parent = null;
             Destroy(gameObject, 3f);
-            Destroy(this.gameObject);
+            
         }
        
     }
