@@ -62,7 +62,5 @@ public class GameManager : MonoBehaviour
         {
             _txtSecond = timerEndLevelSecond.ToString("F0");
         }
-
-        
     }
 }

@@ -28,7 +28,9 @@
 =======
 <<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/.idea/.idea.A+DansLeBus/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.A+DansLeBus/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+<<<<<<< Updated upstream
 =======
       <change beforePath="$PROJECT_DIR$/.idea/.idea.A+DansLeBus/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.A+DansLeBus/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.A+DansLeBus/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.A+DansLeBus/.idea/workspace.xml" afterDir="false" />
@@ -36,6 +38,9 @@
       <change beforePath="$PROJECT_DIR$/Assets/Sprite.meta" beforeDir="false" />
 >>>>>>> Stashed changes
 >>>>>>> master
+=======
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,12 +123,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611952330495</updated>
+<<<<<<< Updated upstream
 <<<<<<< HEAD
       <workItem from="1611952332282" duration="620000" />
       <workItem from="1611953719455" duration="538000" />
 =======
       <workItem from="1611952332282" duration="1280000" />
 >>>>>>> master
+=======
+      <workItem from="1611952332282" duration="2625000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
