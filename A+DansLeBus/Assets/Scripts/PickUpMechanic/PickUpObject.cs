@@ -12,7 +12,7 @@ public class PickUpObject : MonoBehaviour
         
         objectsPickUp.Add(other.gameObject);
         other.gameObject.SetActive(false);
-        
+        GameManager.gm.CheckIfVictory(objectsPickUp.Count);
     }
     
 }
