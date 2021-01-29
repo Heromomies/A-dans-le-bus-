@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using Random = UnityEngine.Random;
+
 
 public class GameManager : MonoBehaviour
 {
@@ -14,6 +16,13 @@ public class GameManager : MonoBehaviour
     private string _txtSecond;
     #region singleton
     public static GameManager gm;
+
+
+    public List<GameObject> allGameObjects;
+    public List<GameObject> objectsToCatch;
+
+    public Transform[] spawnPoints;
+    public int numbersObjects;
     private void Awake()
     {
         if (gm == null)
@@ -25,7 +34,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+     
     }
 
     // Update is called once per frame
