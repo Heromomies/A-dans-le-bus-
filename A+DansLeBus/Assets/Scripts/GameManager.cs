@@ -1,12 +1,17 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public float timerEndLevel;
+    public float timerEndLevelSecond;
+    public int timerEndLevelMinute;
+    
 
+    public TextMeshProUGUI timerTxt;
+    private string _txtSecond;
     #region singleton
     public static GameManager gm;
     private void Awake()
@@ -26,11 +31,29 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timerEndLevel -= Time.deltaTime;
-        if (timerEndLevel <=0)
+        timerEndLevelSecond -= Time.deltaTime;
+        timerTxt.text = timerEndLevelMinute + " : " + _txtSecond;
+        if (timerEndLevelSecond <=0 && timerEndLevelMinute<=0)
         {
+            timerEndLevelSecond = 0;
             //TODO le game over
             Debug.Log("GAME OVER");
+        }        
+        else if (timerEndLevelSecond<= 0 && timerEndLevelMinute >0)
+        {
+            timerEndLevelMinute--;
+            timerEndLevelSecond = 59;
         }
+
+        if (timerEndLevelSecond <= 10)
+        {
+            _txtSecond = "0" + timerEndLevelSecond.ToString("F0");
+        }
+        else
+        {
+            _txtSecond = timerEndLevelSecond.ToString("F0");
+        }
+
+        
     }
 }
