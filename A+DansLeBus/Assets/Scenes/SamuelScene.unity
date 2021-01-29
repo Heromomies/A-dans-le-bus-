@@ -465,9 +465,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed338f40b6ab78146a1e4cdf641e8e1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timerEndLevelSecond: 5
+  timerEndLevelSecond: 30
   timerEndLevelMinute: 1
-  timerTxt: {fileID: 684171566}
+  numbersObjectsToFind: 0
+  timerTxt: {fileID: 684171564}
+  allGameObjects: []
+  objectsToCatch: []
+  spawnPoints: []
 --- !u!4 &1695153379
 Transform:
   m_ObjectHideFlags: 0
