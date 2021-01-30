@@ -19,6 +19,7 @@ public class BigObject : MonoBehaviour
                 int randomPos = Random.Range(0, spawnPoints.Count);
                 Instantiate(oti, spawnPoints[randomPos].position, Quaternion.identity);
             }
+            Destroy(gameObject);
         }
     }
 
