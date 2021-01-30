@@ -12,6 +12,7 @@ public class BigObject : MonoBehaviour
     public int objectLife;
 
     private bool _playOnce = true;
+    private bool _canBeHitting = false;
 
     public bool hasObjectHidden = false;
     public GameObject objectHidden;
@@ -45,6 +46,16 @@ public class BigObject : MonoBehaviour
 
             _playOnce = false;
         }
+
+        if (_canBeHitting)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                Camera.main.DOShakePosition(0.5f, 0.1f, 90, 0.5f);
+                Camera.main.DOShakeRotation(0.5f, .1f, 90, .5f);
+                Damage(1);
+            }
+        }
     }
 
     IEnumerator DisableObject()
@@ -67,13 +78,13 @@ public class BigObject : MonoBehaviour
         Debug.Log(objectLife);
     }
 
-    private void OnCollisionStay2D(Collision2D other)
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            Camera.main.DOShakePosition(0.5f, 0.1f, 90, 0.5f);
-            Camera.main.DOShakeRotation(0.5f, .1f, 90, .5f);
-            Damage(1);
-        }
+        _canBeHitting = true;
+    }
+
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        _canBeHitting = false;
     }
 }
