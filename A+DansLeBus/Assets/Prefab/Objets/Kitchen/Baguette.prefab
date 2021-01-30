@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5680054638453674725}
   - component: {fileID: 5680054638453674730}
   - component: {fileID: 5680054638453674724}
+  - component: {fileID: 61511075}
   m_Layer: 0
   m_Name: Baguette
   m_TagString: Untagged
@@ -111,3 +112,17 @@ PolygonCollider2D:
       - {x: -0.16, y: -0.049999997}
       - {x: 0.16, y: -0.049999997}
       - {x: 0.16, y: 0.049999997}
+--- !u!114 &61511075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5680054638453674731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 008ff4e968c437846a3d773faad11324, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsPickUp: []
+  isPickable: 0

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5355229674995283221}
   - component: {fileID: 5355229674995283226}
   - component: {fileID: 8739135124590557587}
+  - component: {fileID: 570007656}
   m_Layer: 0
   m_Name: Bathroom_stuff6
   m_TagString: Untagged
@@ -117,3 +118,17 @@ PolygonCollider2D:
       - {x: 0.03, y: 0.08}
       - {x: -0.01, y: 0.08}
       - {x: -0.049999997, y: 0.07}
+--- !u!114 &570007656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5355229674995283227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 008ff4e968c437846a3d773faad11324, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsPickUp: []
+  isPickable: 0

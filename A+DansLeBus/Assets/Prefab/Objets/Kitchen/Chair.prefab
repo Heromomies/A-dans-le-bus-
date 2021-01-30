@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7957678277468080724}
   - component: {fileID: 7957678277468080731}
   - component: {fileID: 7180357502482885580}
+  - component: {fileID: 1906597212}
   m_Layer: 0
   m_Name: Chair
   m_TagString: Untagged
@@ -113,3 +114,17 @@ PolygonCollider2D:
       - {x: 0.099999994, y: -0.16}
       - {x: 0.099999994, y: 0.07}
       - {x: -0.01, y: 0.16}
+--- !u!114 &1906597212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7957678277468080730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 008ff4e968c437846a3d773faad11324, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsPickUp: []
+  isPickable: 0

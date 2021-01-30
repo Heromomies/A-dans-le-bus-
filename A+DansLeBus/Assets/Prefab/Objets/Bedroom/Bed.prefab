@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6944694251190524489}
   - component: {fileID: 6944694251190524486}
   - component: {fileID: 1704804364475440224}
+  - component: {fileID: 1446361435}
   m_Layer: 0
   m_Name: Bed
   m_TagString: Untagged
@@ -112,3 +113,17 @@ PolygonCollider2D:
       - {x: -0.16, y: -0.16}
       - {x: 0.16, y: -0.16}
       - {x: 0.16, y: 0.07}
+--- !u!114 &1446361435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6944694251190524487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 008ff4e968c437846a3d773faad11324, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsPickUp: []
+  isPickable: 0

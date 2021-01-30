@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
     
     public List<GameObject> allGameObjects = new List<GameObject>();
     public List<GameObject> objectsToCatch = new List<GameObject>();
-
+    public List<GameObject> objectsCatchByPlayer = new List<GameObject>();
     public List<Transform> spawnPoints;
 
     private bool _playOnce = true;
@@ -97,9 +97,9 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void CheckIfVictory(int nbGameObjectPlayer)
+    public void CheckIfVictory()
     {
-        if (nbGameObjectPlayer == objectsToCatch.Count)
+        if (objectsCatchByPlayer.Count == objectsToCatch.Count)
         {
             //TODO C'est la win
             Debug.Log("VICTOIRE");
