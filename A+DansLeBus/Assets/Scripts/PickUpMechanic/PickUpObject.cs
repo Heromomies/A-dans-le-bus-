@@ -1,13 +1,36 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class PickUpObject : MonoBehaviour
 {
     public bool isPickable;
-    [SerializeField]
-    private GameObject vfx_liquide;
-    private void OnTriggerStay2D(Collider2D other)
+    private bool _canBePicked = false;
+    [SerializeField] private GameObject vfx_liquide;
+
+    private GameObject _player = null;
+
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (Input.GetMouseButtonDown(0) && isPickable && other.CompareTag("Player"))
+        if (other.CompareTag("Player"))
+        {
+            _canBePicked = true;
+            _player = other.gameObject;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            _canBePicked = false;
+            _player = other.gameObject;
+        }
+    }
+
+    private void Update()
+    {
+        if (_canBePicked && Input.GetMouseButtonDown(0) && isPickable && _player != null &&
+            _player.CompareTag("Player"))
         {
             GameManager.gm.objectsCatchByPlayer.Add(gameObject);
             GameManager.gm.CheckIfVictory();
@@ -17,6 +40,7 @@ public class PickUpObject : MonoBehaviour
                 GameObject vfx = Instantiate(vfx_liquide, transform.position, Quaternion.identity);
                 Destroy(vfx, 3f);
             }
+
             gameObject.SetActive(false);
         }
     }
