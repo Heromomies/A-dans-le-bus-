@@ -1029,16 +1029,12 @@ MonoBehaviour:
   timerEndLevelMinute: 3
   numbersObjectsToFind: 5
   timerTxt: {fileID: 0}
+  panelWin: {fileID: 0}
   allGameObjects: []
   objectsToCatch: []
   objectsCatchByPlayer: []
-  spawnPoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  panel_win: {fileID: 0}
+  spawnPoints: []
+  imageObjectif: []
 --- !u!4 &813665243
 Transform:
   m_ObjectHideFlags: 0
