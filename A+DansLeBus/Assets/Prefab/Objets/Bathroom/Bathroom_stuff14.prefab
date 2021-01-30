@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4429647796969880757}
   - component: {fileID: 4429647796969880762}
-  - component: {fileID: -5864476094834863380}
   - component: {fileID: 85663072}
+  - component: {fileID: 4095107913060718583}
   m_Layer: 0
   m_Name: Bathroom_stuff14
   m_TagString: Untagged
@@ -84,7 +84,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &-5864476094834863380
+--- !u!114 &85663072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4429647796969880763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 008ff4e968c437846a3d773faad11324, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPickable: 0
+--- !u!60 &4095107913060718583
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -116,19 +129,6 @@ PolygonCollider2D:
       - {x: 0.06, y: -0.049999997}
       - {x: 0.06, y: 0.049999997}
       - {x: 0.03, y: 0.08}
---- !u!114 &85663072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4429647796969880763}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 008ff4e968c437846a3d773faad11324, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isPickable: 0
 --- !u!1001 &4059391662152600530
 PrefabInstance:
   m_ObjectHideFlags: 0

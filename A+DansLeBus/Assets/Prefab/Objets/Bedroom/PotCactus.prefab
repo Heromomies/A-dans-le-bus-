@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 651844492297750664}
   - component: {fileID: 1139861439238332933}
   - component: {fileID: 1093568734034861102}
-  - component: {fileID: 5731244252914172634}
+  - component: {fileID: -1604294457997147898}
   m_Layer: 0
   m_Name: PotCactus
   m_TagString: Untagged
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPickable: 0
---- !u!60 &5731244252914172634
+--- !u!60 &-1604294457997147898
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

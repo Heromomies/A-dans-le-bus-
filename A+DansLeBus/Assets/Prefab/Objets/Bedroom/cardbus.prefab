@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7742761949853441177}
   - component: {fileID: 7902014234335671828}
-  - component: {fileID: 6321682068482886613}
   - component: {fileID: 713321349929969469}
+  - component: {fileID: -4605506205211496487}
   m_Layer: 0
   m_Name: cardbus
   m_TagString: Untagged
@@ -84,7 +84,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &6321682068482886613
+--- !u!114 &713321349929969469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053653748042477677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 008ff4e968c437846a3d773faad11324, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPickable: 0
+--- !u!60 &-4605506205211496487
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -117,19 +130,6 @@ PolygonCollider2D:
       - {x: 0.089999996, y: -0.22999999}
       - {x: 0.089999996, y: -0.16}
       - {x: 0.07, y: -0.14}
---- !u!114 &713321349929969469
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2053653748042477677}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 008ff4e968c437846a3d773faad11324, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isPickable: 0
 --- !u!1001 &6488637313317608118
 PrefabInstance:
   m_ObjectHideFlags: 0

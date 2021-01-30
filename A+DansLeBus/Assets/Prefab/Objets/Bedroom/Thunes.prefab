@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 560672347313809773}
   - component: {fileID: 80396752599024608}
   - component: {fileID: 135419576026070475}
-  - component: {fileID: 182342843349515601}
+  - component: {fileID: -505310558913151023}
   m_Layer: 0
   m_Name: Thunes
   m_TagString: Untagged
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPickable: 0
---- !u!60 &182342843349515601
+--- !u!60 &-505310558913151023
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

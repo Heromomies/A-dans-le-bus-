@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2914992017053224845}
   - component: {fileID: 3363741590958515456}
   - component: {fileID: 5395814619608871977}
-  - component: {fileID: 5580691704763965431}
+  - component: {fileID: 2544441832165833945}
   m_Layer: 0
   m_Name: chausson
   m_TagString: Untagged
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPickable: 0
---- !u!60 &5580691704763965431
+--- !u!60 &2544441832165833945
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3136421517967162355}
   - component: {fileID: 3268634957036540286}
   - component: {fileID: 5265596119416111191}
-  - component: {fileID: 5562147771188796025}
+  - component: {fileID: 897819483755025435}
   m_Layer: 0
   m_Name: parapluie
   m_TagString: Untagged
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPickable: 0
---- !u!60 &5562147771188796025
+--- !u!60 &897819483755025435
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

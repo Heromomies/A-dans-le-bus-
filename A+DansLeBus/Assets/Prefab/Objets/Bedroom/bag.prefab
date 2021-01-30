@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1508089627604894225}
   - component: {fileID: 3278064899227038027}
   - component: {fileID: 1609431703935498693}
-  - component: {fileID: 5452073811714500}
+  - component: {fileID: 8979688783095090942}
   m_Layer: 0
   m_Name: bag
   m_TagString: Untagged
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPickable: 0
---- !u!60 &5452073811714500
+--- !u!60 &8979688783095090942
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

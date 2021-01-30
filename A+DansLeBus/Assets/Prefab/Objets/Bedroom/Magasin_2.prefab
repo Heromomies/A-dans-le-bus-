@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2687201711217608134}
   - component: {fileID: 2562710177668542283}
   - component: {fileID: 2552459466584772960}
-  - component: {fileID: 3047000990522875456}
+  - component: {fileID: 1965714645091278486}
   m_Layer: 0
   m_Name: Magasin_2
   m_TagString: Untagged
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPickable: 0
---- !u!60 &3047000990522875456
+--- !u!60 &1965714645091278486
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

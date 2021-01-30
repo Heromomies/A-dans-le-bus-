@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5758764337312134373}
   - component: {fileID: 5274125605362327144}
   - component: {fileID: 5318133525424218179}
-  - component: {fileID: 4412075249675418292}
+  - component: {fileID: -163421923957140746}
   m_Layer: 0
   m_Name: Pot
   m_TagString: Untagged
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPickable: 0
---- !u!60 &4412075249675418292
+--- !u!60 &-163421923957140746
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

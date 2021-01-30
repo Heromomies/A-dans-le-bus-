@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5355229674995283221}
   - component: {fileID: 5355229674995283226}
-  - component: {fileID: 8739135124590557587}
   - component: {fileID: 570007656}
+  - component: {fileID: 1027881721402331346}
   m_Layer: 0
   m_Name: Bathroom_stuff6
   m_TagString: Untagged
@@ -84,7 +84,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &8739135124590557587
+--- !u!114 &570007656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5355229674995283227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 008ff4e968c437846a3d773faad11324, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPickable: 0
+--- !u!60 &1027881721402331346
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -109,29 +122,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.084485054, y: -0.018334314}
-      - {x: -0.07795203, y: -0.062290944}
-      - {x: -0.049999997, y: -0.07}
-      - {x: 0.03, y: -0.07}
-      - {x: 0.049999997, y: -0.06}
-      - {x: 0.08708668, y: 0.033645324}
-      - {x: 0.08089076, y: 0.068684265}
-      - {x: 0.03, y: 0.08}
-      - {x: -0.01, y: 0.08}
-      - {x: -0.049999997, y: 0.07}
---- !u!114 &570007656
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5355229674995283227}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 008ff4e968c437846a3d773faad11324, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isPickable: 0
+    - - {x: -0.07, y: -0.01}
+      - {x: -0.04, y: -0.06}
+      - {x: 0.02, y: -0.06}
+      - {x: 0.049999997, y: -0.049999997}
+      - {x: 0.049999997, y: 0.04}
+      - {x: 0.04, y: 0.07}
+      - {x: -0.02, y: 0.07}
+      - {x: -0.07, y: 0.06}
 --- !u!1001 &2808604191330221611
 PrefabInstance:
   m_ObjectHideFlags: 0
