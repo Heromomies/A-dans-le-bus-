@@ -1123,7 +1123,17 @@ MonoBehaviour:
   allGameObjects: []
   objectsToCatch: []
   objectsCatchByPlayer: []
-  spawnPoints: []
+  spawnPoints:
+  - {fileID: 910649494}
+  - {fileID: 1904812780}
+  - {fileID: 1905575744}
+  - {fileID: 1638630141}
+  - {fileID: 627695127}
+  - {fileID: 1074865540}
+  - {fileID: 338499073}
+  - {fileID: 634360632}
+  - {fileID: 2058474091}
+  - {fileID: 1442032571}
   imageObjectif: []
 --- !u!4 &813665243
 Transform:
