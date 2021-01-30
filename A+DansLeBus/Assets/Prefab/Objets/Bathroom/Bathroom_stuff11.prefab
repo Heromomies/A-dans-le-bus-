@@ -132,7 +132,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPickable: 0
-  isBigObject: 0
 --- !u!50 &6528276366103364670
 Rigidbody2D:
   serializedVersion: 4

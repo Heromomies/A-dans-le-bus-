@@ -131,7 +131,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPickable: 0
-  isBigObject: 0
 --- !u!1001 &5441011984137022868
 PrefabInstance:
   m_ObjectHideFlags: 0
