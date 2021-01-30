@@ -11,17 +11,29 @@ public class BigObject : MonoBehaviour
     public ParticleSystem particleExplosion;
 
     public int objectLife;
+
+    private bool _playOnce = true;
     
     // Update is called once per frame
     void Update()
     {
-        if (objectLife <= 0)
+        if (objectLife <= 0 && _playOnce)
         {
-            particleExplosion.Play();
+            StartCoroutine(DisableObject());
+            _playOnce = false;
+            
         }
     }
 
-    public void Damage(int amount)
+    IEnumerator DisableObject()
+    {
+        particleExplosion.Play();
+        GetComponent<SpriteRenderer>().sprite = null;
+        GetComponent<PolygonCollider2D>().enabled = false;
+        yield return new WaitForSeconds(3);
+        gameObject.SetActive(false);
+    }
+public void Damage(int amount)
     {
         objectLife -= amount;
         Debug.Log(objectLife);
