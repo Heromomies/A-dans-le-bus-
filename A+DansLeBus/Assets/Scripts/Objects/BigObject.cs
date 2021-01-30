@@ -7,21 +7,42 @@ using Random = UnityEngine.Random;
 
 public class BigObject : MonoBehaviour
 {
-
     public ParticleSystem particleExplosion;
 
     public int objectLife;
 
     private bool _playOnce = true;
-    
+
+    public bool hasObjectHidden = false;
+    public GameObject objectHidden;
+
+    public new Transform transform;
+
+    private void Awake()
+    {
+        transform = gameObject.transform;
+    }
+
+    private void Start()
+    {
+        if (objectHidden != null)
+        {
+            objectHidden.SetActive(false);
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {
         if (objectLife <= 0 && _playOnce)
         {
             StartCoroutine(DisableObject());
+            if (hasObjectHidden)
+            {
+                objectHidden.SetActive(true);
+            }
+
             _playOnce = false;
-            
         }
     }
 
@@ -33,7 +54,8 @@ public class BigObject : MonoBehaviour
         yield return new WaitForSeconds(5.5f);
         gameObject.SetActive(false);
     }
-public void Damage(int amount)
+
+    public void Damage(int amount)
     {
         objectLife -= amount;
         Debug.Log(objectLife);
