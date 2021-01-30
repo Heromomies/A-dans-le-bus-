@@ -2563,7 +2563,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerEndLevelSecond: 0
-  timerEndLevelMinute: 3
+  timerEndLevelMinute: 2
   numbersObjectsToFind: 5
   timerTxt: {fileID: 512678816}
   panelWin: {fileID: 512678817}
@@ -5086,6 +5086,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9057708703123449506, guid: caf8141c52311b54c942c04c17557a83,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: caf8141c52311b54c942c04c17557a83, type: 3}
