@@ -5045,7 +5045,7 @@ PrefabInstance:
     - target: {fileID: 3932357129420541228, guid: cafc8db463a28d54e9b17ef559b5e678,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.764
+      value: 0.244
       objectReference: {fileID: 0}
     - target: {fileID: 3932357129420541228, guid: cafc8db463a28d54e9b17ef559b5e678,
         type: 3}
@@ -5076,36 +5076,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3932357129420541228, guid: cafc8db463a28d54e9b17ef559b5e678,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3932357129420541228, guid: cafc8db463a28d54e9b17ef559b5e678,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3932357129420541228, guid: cafc8db463a28d54e9b17ef559b5e678,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3932357129420541228, guid: cafc8db463a28d54e9b17ef559b5e678,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3932357129420541228, guid: cafc8db463a28d54e9b17ef559b5e678,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3932357129420541228, guid: cafc8db463a28d54e9b17ef559b5e678,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cafc8db463a28d54e9b17ef559b5e678, type: 3}
@@ -5892,11 +5862,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1025525323}
     m_Modifications:
-    - target: {fileID: 1704804364475440224, guid: 377cefa7ce44b7c4fa13209102307345,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6944694251190524486, guid: 377cefa7ce44b7c4fa13209102307345,
         type: 3}
       propertyPath: m_FlipX
