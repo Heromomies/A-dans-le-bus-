@@ -45,6 +45,10 @@ public class GameManager : MonoBehaviour
         {
             int randomObjectIndex = Random.Range(0, allGameObjects.Count);
             objectsToCatch.Add(allGameObjects[randomObjectIndex]);
+            if (allGameObjects[randomObjectIndex].GetComponent<PickUpObject>() != null)
+            {
+                allGameObjects[randomObjectIndex].GetComponent<PickUpObject>().isPickable = true;
+            }
             allGameObjects.RemoveAt(randomObjectIndex);
         }
 
