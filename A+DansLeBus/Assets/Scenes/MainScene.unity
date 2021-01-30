@@ -2673,7 +2673,6 @@ MonoBehaviour:
   - {fileID: 373187200}
   - {fileID: 1607662396}
   - {fileID: 1283466571}
-  - {fileID: 889502374}
   - {fileID: 1452052732}
   - {fileID: 1048363964}
   - {fileID: 560851110}
@@ -3899,12 +3898,6 @@ PrefabInstance:
 --- !u!4 &889502373 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4565011473024046065, guid: 0c23ab2cc6383ed4ea66591321d10091,
-    type: 3}
-  m_PrefabInstance: {fileID: 889502372}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &889502374 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5235987019938283269, guid: 0c23ab2cc6383ed4ea66591321d10091,
     type: 3}
   m_PrefabInstance: {fileID: 889502372}
   m_PrefabAsset: {fileID: 0}
