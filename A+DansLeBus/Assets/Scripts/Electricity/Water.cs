@@ -19,10 +19,12 @@ public class Water : MonoBehaviour
     }
 
     #endregion
-    
+
+    public GameObject electricityZone;
     public void CreateElectricity()
     {
-        //TODO instantiate zone electricity 
-        Debug.Log("Zone electricity created");
+        Debug.Log("Zone créée");
+        Instantiate(electricityZone, transform.position, Quaternion.identity);
+        Destroy(gameObject, 0.5f);
     }
 }

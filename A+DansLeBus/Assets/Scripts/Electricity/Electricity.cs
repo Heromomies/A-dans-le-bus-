@@ -10,6 +10,7 @@ public class Electricity : MonoBehaviour
         if (other.GetComponent<Water>() != null)
         {
             other.GetComponent<Water>().CreateElectricity();
+            Destroy(gameObject, 0.5f);
         }
     }
 }
