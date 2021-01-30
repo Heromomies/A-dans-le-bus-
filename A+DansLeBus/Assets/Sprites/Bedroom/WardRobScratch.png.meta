@@ -1,0 +1,1016 @@
+fileFormatVersion: 2
+guid: b826b6b97bc1d5944866cc55d658169f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6594678741727860427
+    second: WardRobScratch_0
+  - first:
+      213: -3904174213217118839
+    second: WardRobScratch_1
+  - first:
+      213: 7344614689269459779
+    second: WardRobScratch_2
+  - first:
+      213: 8186552174321095624
+    second: WardRobScratch_3
+  - first:
+      213: -8343275670955783958
+    second: WardRobScratch_4
+  - first:
+      213: -4038086029905430876
+    second: WardRobScratch_5
+  - first:
+      213: 565435909525718253
+    second: WardRobScratch_6
+  - first:
+      213: 4590473990936465077
+    second: WardRobScratch_7
+  - first:
+      213: -6602529647478182970
+    second: WardRobScratch_8
+  - first:
+      213: -2778096503695841994
+    second: WardRobScratch_9
+  - first:
+      213: 4280452677703261810
+    second: WardRobScratch_10
+  - first:
+      213: -3692565444726437653
+    second: WardRobScratch_11
+  - first:
+      213: -3298890463514939392
+    second: WardRobScratch_12
+  - first:
+      213: 414959890694638755
+    second: WardRobScratch_13
+  - first:
+      213: -4735265052842975293
+    second: WardRobScratch_14
+  - first:
+      213: 4742974710993348857
+    second: WardRobScratch_15
+  - first:
+      213: 9167573874925686103
+    second: WardRobScratch_16
+  - first:
+      213: -6749505708541244427
+    second: WardRobScratch_17
+  - first:
+      213: 4375605747943611958
+    second: WardRobScratch_18
+  - first:
+      213: 6141066234440669531
+    second: WardRobScratch_19
+  - first:
+      213: 1269239059335995104
+    second: WardRobScratch_20
+  - first:
+      213: -1083853142874716988
+    second: WardRobScratch_21
+  - first:
+      213: -5229372092539722060
+    second: WardRobScratch_22
+  - first:
+      213: 824358376585799831
+    second: WardRobScratch_23
+  - first:
+      213: -1904265217187826905
+    second: WardRobScratch_24
+  - first:
+      213: 135049099856084407
+    second: WardRobScratch_25
+  - first:
+      213: 899570137367090511
+    second: WardRobScratch_26
+  - first:
+      213: 8207203627124677042
+    second: WardRobScratch_27
+  - first:
+      213: -7589636580445355130
+    second: WardRobScratch_28
+  - first:
+      213: 7442941690954019647
+    second: WardRobScratch_29
+  - first:
+      213: 5351539346238403044
+    second: WardRobScratch_30
+  - first:
+      213: -9188829906038354442
+    second: WardRobScratch_31
+  - first:
+      213: -8077826153660577299
+    second: WardRobScratch_32
+  - first:
+      213: -1173273963771407319
+    second: WardRobScratch_33
+  - first:
+      213: -6391662260652494659
+    second: WardRobScratch_34
+  - first:
+      213: 6616282019152008773
+    second: WardRobScratch_35
+  - first:
+      213: 6819278324414342578
+    second: WardRobScratch_36
+  - first:
+      213: -8767937947989682896
+    second: WardRobScratch_37
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WardRobScratch_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc652802061058b50800000000000000
+      internalID: 6594678741727860427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98514fffc3691d9c0800000000000000
+      internalID: -3904174213217118839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_2
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ba50e75205de560800000000000000
+      internalID: 7344614689269459779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_3
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 0
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c35c9d04d97c9170800000000000000
+      internalID: 8186552174321095624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae885895bfab63c80800000000000000
+      internalID: -8343275670955783958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_5
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 6
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6f4078626d5f7c0800000000000000
+      internalID: -4038086029905430876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_6
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 6
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4c782c6f4d8d700800000000000000
+      internalID: 565435909525718253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_7
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 6
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be007cf5c3a4bf30800000000000000
+      internalID: 4590473990936465077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbe31f644a1f54a0800000000000000
+      internalID: -6602529647478182970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_9
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 12
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6356479e2f73279d0800000000000000
+      internalID: -2778096503695841994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 12
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e5f541809376b30800000000000000
+      internalID: 4280452677703261810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_11
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 12
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8c235ca4f51ccc0800000000000000
+      internalID: -3692565444726437653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_12
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 19
+        width: 6
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000b4490a9cf732d0800000000000000
+      internalID: -3298890463514939392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_13
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 19
+        width: 2
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac83e072db32c500800000000000000
+      internalID: 414959890694638755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_14
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 21
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf19ffd585f84eb0800000000000000
+      internalID: -4735265052842975293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_15
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 18
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f86b6bce5e62d140800000000000000
+      internalID: 4742974710993348857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_16
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 21
+        width: 7
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75dc81b0ed3c93f70800000000000000
+      internalID: 9167573874925686103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_17
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 24
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb8de88150f452a0800000000000000
+      internalID: -6749505708541244427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_18
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 24
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e165bae3649bc30800000000000000
+      internalID: 4375605747943611958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 20
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b595bf51433793550800000000000000
+      internalID: 6141066234440669531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_20
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 20
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eed5c2233e3d9110800000000000000
+      internalID: 1269239059335995104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_21
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 25
+        width: 5
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4034e1f4165f0f0800000000000000
+      internalID: -1083853142874716988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27
+        width: 10
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b624d9c9c98d67b0800000000000000
+      internalID: -5229372092539722060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 29
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798a30c6395b07b00800000000000000
+      internalID: 824358376585799831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_24
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 29
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723336bcfd0b295e0800000000000000
+      internalID: -1904265217187826905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_25
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 29
+        width: 9
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd7828d07acfd100800000000000000
+      internalID: 135049099856084407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_26
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 29
+        width: 3
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f459058164aeb7c00800000000000000
+      internalID: 899570137367090511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_27
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 32
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9501a1738d5e170800000000000000
+      internalID: 8207203627124677042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_28
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 36
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6838e30edb13ca690800000000000000
+      internalID: -7589636580445355130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_29
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 32
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3372459804aa4760800000000000000
+      internalID: 7442941690954019647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_30
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 34
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1f0168eac744a40800000000000000
+      internalID: 5351539346238403044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 12
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd091d82e7ba7080800000000000000
+      internalID: -9188829906038354442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 39
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de983b159ebc5ef80800000000000000
+      internalID: -8077826153660577299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_33
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 39
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924d035db81b7bfe0800000000000000
+      internalID: -1173273963771407319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_34
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 45
+        width: 14
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0b985d9014c47a0800000000000000
+      internalID: -6391662260652494659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_35
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 39
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5461c5d1171c1db50800000000000000
+      internalID: 6616282019152008773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_36
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 39
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5ec378181f2ae50800000000000000
+      internalID: 6819278324414342578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WardRobScratch_37
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 39
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035586d04e6025680800000000000000
+      internalID: -8767937947989682896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
