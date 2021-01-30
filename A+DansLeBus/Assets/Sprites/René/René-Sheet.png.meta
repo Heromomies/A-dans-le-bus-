@@ -1,0 +1,921 @@
+fileFormatVersion: 2
+guid: 1de65eb2258271a45af31704d32d1a3a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6165289164384359713
+    second: "Ren\xE9-Sheet_0"
+  - first:
+      213: -6889667624513864388
+    second: "Ren\xE9-Sheet_1"
+  - first:
+      213: 8834627573324945164
+    second: "Ren\xE9-Sheet_2"
+  - first:
+      213: -6527079345262902229
+    second: "Ren\xE9-Sheet_3"
+  - first:
+      213: 5063859870771138622
+    second: "Ren\xE9-Sheet_4"
+  - first:
+      213: 3841917684620440477
+    second: "Ren\xE9-Sheet_5"
+  - first:
+      213: 5051491958913417687
+    second: "Ren\xE9-Sheet_6"
+  - first:
+      213: 8496905806101961831
+    second: "Ren\xE9-Sheet_7"
+  - first:
+      213: 8785568783646973297
+    second: "Ren\xE9-Sheet_8"
+  - first:
+      213: -7832798864511448888
+    second: "Ren\xE9-Sheet_9"
+  - first:
+      213: -4022586705423077742
+    second: "Ren\xE9-Sheet_10"
+  - first:
+      213: -8560461950973614490
+    second: "Ren\xE9-Sheet_11"
+  - first:
+      213: -668813753863082018
+    second: "Ren\xE9-Sheet_12"
+  - first:
+      213: -7362407183621089340
+    second: "Ren\xE9-Sheet_13"
+  - first:
+      213: -3811518458746594235
+    second: "Ren\xE9-Sheet_14"
+  - first:
+      213: 7570384454655254803
+    second: "Ren\xE9-Sheet_15"
+  - first:
+      213: 6901980513358648842
+    second: "Ren\xE9-Sheet_16"
+  - first:
+      213: 7465837900717656835
+    second: "Ren\xE9-Sheet_17"
+  - first:
+      213: -6075327243796103070
+    second: "Ren\xE9-Sheet_18"
+  - first:
+      213: -4816376242604254886
+    second: "Ren\xE9-Sheet_19"
+  - first:
+      213: -8656217607979495105
+    second: "Ren\xE9-Sheet_20"
+  - first:
+      213: 8805634695271956607
+    second: "Ren\xE9-Sheet_21"
+  - first:
+      213: -1378366102024288386
+    second: "Ren\xE9-Sheet_22"
+  - first:
+      213: -105607327760047011
+    second: "Ren\xE9-Sheet_23"
+  - first:
+      213: -6223476786807545235
+    second: "Ren\xE9-Sheet_24"
+  - first:
+      213: 1603298956147652102
+    second: "Ren\xE9-Sheet_25"
+  - first:
+      213: -7680171614927491369
+    second: "Ren\xE9-Sheet_26"
+  - first:
+      213: 5891503878674287492
+    second: "Ren\xE9-Sheet_27"
+  - first:
+      213: 873795456081492472
+    second: "Ren\xE9-Sheet_28"
+  - first:
+      213: 5885336333411941333
+    second: "Ren\xE9-Sheet_0"
+  - first:
+      213: 1458110825625479908
+    second: "Ren\xE9-Sheet_1"
+  - first:
+      213: 1786175522349087320
+    second: "Ren\xE9-Sheet_2"
+  - first:
+      213: -1768188232400735891
+    second: "Ren\xE9-Sheet_3"
+  - first:
+      213: 556729621755935597
+    second: "Ren\xE9-Sheet_4"
+  - first:
+      213: 2984218429280824119
+    second: "Ren\xE9-Sheet_5"
+  - first:
+      213: -6755384258869829554
+    second: "Ren\xE9-Sheet_6"
+  - first:
+      213: 8528337032462323051
+    second: "Ren\xE9-Sheet_7"
+  - first:
+      213: -4753081684884993420
+    second: "Ren\xE9-Sheet_8"
+  - first:
+      213: 5956914379246340544
+    second: "Ren\xE9-Sheet_9"
+  - first:
+      213: 7052037160608298681
+    second: "Ren\xE9-Sheet_10"
+  - first:
+      213: -589933882408523392
+    second: "Ren\xE9-Sheet_11"
+  - first:
+      213: 168175236998102369
+    second: "Ren\xE9-Sheet_12"
+  - first:
+      213: -8911881427228953178
+    second: "Ren\xE9-Sheet_13"
+  - first:
+      213: -3962212999602802149
+    second: "Ren\xE9-Sheet_14"
+  - first:
+      213: -1312584317355505089
+    second: "Ren\xE9-Sheet_15"
+  - first:
+      213: 4657642862603484985
+    second: "Ren\xE9-Sheet_16"
+  - first:
+      213: 394067167900105895
+    second: "Ren\xE9-Sheet_17"
+  - first:
+      213: -3351229395233939206
+    second: "Ren\xE9-Sheet_18"
+  - first:
+      213: -4983087698530814810
+    second: "Ren\xE9-Sheet_19"
+  - first:
+      213: 5672425895600638503
+    second: "Ren\xE9-Sheet_20"
+  - first:
+      213: -1727871046857408986
+    second: "Ren\xE9-Sheet_21"
+  - first:
+      213: 2556903577280147206
+    second: "Ren\xE9-Sheet_22"
+  - first:
+      213: -747206618476645718
+    second: "Ren\xE9-Sheet_23"
+  - first:
+      213: 5214268596787663251
+    second: "Ren\xE9-Sheet_24"
+  - first:
+      213: -131181366281089665
+    second: "Ren\xE9-Sheet_25"
+  - first:
+      213: 904419559946990411
+    second: "Ren\xE9-Sheet_26"
+  - first:
+      213: 552713178303811874
+    second: "Ren\xE9-Sheet_27"
+  - first:
+      213: 6540232246748393722
+    second: "Ren\xE9-Sheet_28"
+  - first:
+      213: -6009854562549714844
+    second: "Ren\xE9-Sheet_29"
+  - first:
+      213: -1942337228877504287
+    second: "Ren\xE9-Sheet_30"
+  - first:
+      213: 54788059718541434
+    second: "Ren\xE9-Sheet_29"
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Ren\xE9-Sheet_0"
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 224
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dbf7b0a63aeca150800000000000000
+      internalID: 5885336333411941333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ren\xE9-Sheet_1"
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 224
+        width: 10
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eaee8c02104c3410800000000000000
+      internalID: 1458110825625479908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ren\xE9-Sheet_2"
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 224
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a7d1c8c25c9c810800000000000000
+      internalID: 1786175522349087320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ren\xE9-Sheet_3"
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 224
+        width: 10
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d617abfbb222677e0800000000000000
+      internalID: -1768188232400735891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ren\xE9-Sheet_4"
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 194
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b33bc24a6e9b700800000000000000
+      internalID: 556729621755935597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ren\xE9-Sheet_5"
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 192
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b2571b9d21a6920800000000000000
+      internalID: 2984218429280824119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ren\xE9-Sheet_6"
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 194
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e406cc0eecd0042a0800000000000000
+      internalID: -6755384258869829554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ren\xE9-Sheet_7"
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 192
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6dc9b0985dba5670800000000000000
+      internalID: 8528337032462323051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ren\xE9-Sheet_8"
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 162
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ac308f369a90eb0800000000000000
+      internalID: -4753081684884993420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ren\xE9-Sheet_9"
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 160
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9056c11163ba250800000000000000
+      internalID: 5956914379246340544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ren\xE9-Sheet_10"
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 162
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b679ec2f6eddd160800000000000000
+      internalID: 7052037160608298681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ren\xE9-Sheet_11"
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 160
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089a212724220d7f0800000000000000
+      internalID: -589933882408523392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ren\xE9-Sheet_12"
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 130
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16df94dac7a755200800000000000000
+      internalID: 168175236998102369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ren\xE9-Sheet_13"
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 128
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5fd912f03a25480800000000000000
+      internalID: -8911881427228953178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ren\xE9-Sheet_14"
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 130
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b127d3205446309c0800000000000000
+      internalID: -3962212999602802149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ren\xE9-Sheet_15"
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 128
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ac64a8483c8cde0800000000000000
+      internalID: -1312584317355505089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ren\xE9-Sheet_16"
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 98
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f3d1c918543a040800000000000000
+      internalID: 4657642862603484985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ren\xE9-Sheet_17"
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 96
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac74585002087500800000000000000
+      internalID: 394067167900105895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ren\xE9-Sheet_18"
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 98
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0eb30ee9a0e71d0800000000000000
+      internalID: -3351229395233939206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ren\xE9-Sheet_19"
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 96
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4b374c32488dab0800000000000000
+      internalID: -4983087698530814810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ren\xE9-Sheet_20"
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 39
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: -26}
+        - {x: -10, y: -1}
+        - {x: 10, y: -1}
+        - {x: 10, y: -26}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ac00a5c4188be40800000000000000
+      internalID: 5672425895600638503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ren\xE9-Sheet_21"
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 64
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62eb162007e5508e0800000000000000
+      internalID: -1727871046857408986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ren\xE9-Sheet_22"
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 64
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f65b8a142fb7320800000000000000
+      internalID: 2556903577280147206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ren\xE9-Sheet_23"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 64
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2f0e31a8361a5f0800000000000000
+      internalID: -747206618476645718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ren\xE9-Sheet_24"
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 37
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391d00399adcc5840800000000000000
+      internalID: 5214268596787663251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ren\xE9-Sheet_25"
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 32
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d4aad0e33fd2ef0800000000000000
+      internalID: -131181366281089665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ren\xE9-Sheet_26"
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 37
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b433e864cc42d8c00800000000000000
+      internalID: 904419559946990411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ren\xE9-Sheet_27"
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221d97f05b1aba700800000000000000
+      internalID: 552713178303811874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ren\xE9-Sheet_28"
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af03ef7a39293ca50800000000000000
+      internalID: 6540232246748393722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ren\xE9-Sheet_29"
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 64
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70e4753375a2c000800000000000000
+      internalID: 54788059718541434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
