@@ -103,6 +103,7 @@ public class GameManager : MonoBehaviour
         {
             timerEndLevelSecond = 0;
             panelGameOver.SetActive(true);
+            Time.timeScale = 0f;
         }
         else if (timerEndLevelSecond <= 0 && timerEndLevelMinute > 0)
         {
