@@ -41,6 +41,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        timerTxt.transform.DOScale(new Vector3(1.2f, 1.2f, 0), 1).SetLoops(60, LoopType.Yoyo);
         for (int i = 0; i < numbersObjectsToFind; i++)
         {
             int randomObjectIndex = Random.Range(0, allGameObjects.Count);
@@ -94,10 +95,6 @@ public class GameManager : MonoBehaviour
             mySequence.Append(timerTxt.transform.DORotate(new Vector3(0, 0, -30), 1f).SetLoops(30, LoopType.Yoyo));
             timerTxt.transform.DOScale(new Vector3(1.5f,1.5f,1),1f ).SetLoops(30, LoopType.Yoyo);
             timerTxt.transform.GetComponent<TextMeshProUGUI>().DOColor(Color.red, 1).SetLoops(30, LoopType.Yoyo);
-        }
-        else
-        {
-            timerTxt.transform.DOScale(new Vector3(1.2f, 1.2f, 0), 1).SetLoops(60, LoopType.Yoyo);
         }
     }
 
