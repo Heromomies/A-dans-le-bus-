@@ -131,6 +131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPickable: 0
+  vfx_liquide: {fileID: 0}
 --- !u!1001 &7759504809698635923
 PrefabInstance:
   m_ObjectHideFlags: 0
