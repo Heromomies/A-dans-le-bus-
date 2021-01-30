@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4529197244280655258}
   - component: {fileID: 4529197244280655253}
   - component: {fileID: 6579055053055095830}
-  - component: {fileID: 1805905598}
   m_Layer: 0
   m_Name: Trash_can
   m_TagString: Untagged
@@ -29,8 +28,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.86, y: -1.318, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
-  m_Children:
-  - {fileID: 6465960068778257319}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -117,92 +115,3 @@ PolygonCollider2D:
       - {x: 0.099999994, y: -0.07}
       - {x: 0.099999994, y: 0.089999996}
       - {x: 0.089999996, y: 0.12}
---- !u!114 &1805905598
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4529197244280655252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 008ff4e968c437846a3d773faad11324, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isPickable: 0
-  isBigObject: 0
---- !u!1001 &9163003296085853166
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 4529197244280655258}
-    m_Modifications:
-    - target: {fileID: 2779339581165480009, guid: 89c137ae5d0eed743ba486a1cd6a213b,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2779339581165480009, guid: 89c137ae5d0eed743ba486a1cd6a213b,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2779339581165480009, guid: 89c137ae5d0eed743ba486a1cd6a213b,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2779339581165480009, guid: 89c137ae5d0eed743ba486a1cd6a213b,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2779339581165480009, guid: 89c137ae5d0eed743ba486a1cd6a213b,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2779339581165480009, guid: 89c137ae5d0eed743ba486a1cd6a213b,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2779339581165480009, guid: 89c137ae5d0eed743ba486a1cd6a213b,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2779339581165480009, guid: 89c137ae5d0eed743ba486a1cd6a213b,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2779339581165480009, guid: 89c137ae5d0eed743ba486a1cd6a213b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2779339581165480009, guid: 89c137ae5d0eed743ba486a1cd6a213b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2779339581165480009, guid: 89c137ae5d0eed743ba486a1cd6a213b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6491871365306891877, guid: 89c137ae5d0eed743ba486a1cd6a213b,
-        type: 3}
-      propertyPath: m_Name
-      value: CircleColliderHalo
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 89c137ae5d0eed743ba486a1cd6a213b, type: 3}
---- !u!4 &6465960068778257319 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2779339581165480009, guid: 89c137ae5d0eed743ba486a1cd6a213b,
-    type: 3}
-  m_PrefabInstance: {fileID: 9163003296085853166}
-  m_PrefabAsset: {fileID: 0}
