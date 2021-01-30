@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
     private bool _playOnce = true;
 
     public GameObject timerTxt;
-    public GameObject panelWin;
+    public GameObject panelWin, panelGameOver;
 
     public List<GameObject> allGameObjects = new List<GameObject>();
     public List<GameObject> objectsToCatch = new List<GameObject>();
@@ -102,8 +102,7 @@ public class GameManager : MonoBehaviour
         if (timerEndLevelSecond <= 0 && timerEndLevelMinute <= 0)
         {
             timerEndLevelSecond = 0;
-            //TODO le game over
-            Debug.Log("GAME OVER");
+            panelGameOver.SetActive(true);
         }
         else if (timerEndLevelSecond <= 0 && timerEndLevelMinute > 0)
         {
