@@ -3,6 +3,7 @@ using TMPro;
 using UnityEngine;
 using Random = UnityEngine.Random;
 using DG.Tweening;
+using UnityEngine.SceneManagement;
 
 
 public class GameManager : MonoBehaviour
@@ -22,7 +23,7 @@ public class GameManager : MonoBehaviour
     public List<Transform> spawnPoints;
 
     private bool _playOnce = true;
-
+    public GameObject panel_win;
     #region singleton
 
     public static GameManager gm;
@@ -42,6 +43,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         timerTxt.transform.DOScale(new Vector3(1.2f, 1.2f, 0), 1).SetLoops(60, LoopType.Yoyo);
+        Cursor.visible = false;
         for (int i = 0; i < numbersObjectsToFind; i++)
         {
             int randomObjectIndex = Random.Range(0, allGameObjects.Count);
@@ -104,6 +106,15 @@ public class GameManager : MonoBehaviour
         {
             //TODO C'est la win
             Debug.Log("VICTOIRE");
+            Time.timeScale = 0f;
+            panel_win.SetActive(true);
+            Cursor.visible = true;
         }
+    }
+
+    public void Restart()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(0, LoadSceneMode.Single);
     }
 }
