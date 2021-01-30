@@ -95,6 +95,10 @@ public class GameManager : MonoBehaviour
             timerTxt.transform.DOScale(new Vector3(1.5f,1.5f,1),1f ).SetLoops(30, LoopType.Yoyo);
             timerTxt.transform.GetComponent<TextMeshProUGUI>().DOColor(Color.red, 1).SetLoops(30, LoopType.Yoyo);
         }
+        else
+        {
+            timerTxt.transform.DOScale(new Vector3(1.2f, 1.2f, 0), 1).SetLoops(60, LoopType.Yoyo);
+        }
     }
 
     public void CheckIfVictory()
