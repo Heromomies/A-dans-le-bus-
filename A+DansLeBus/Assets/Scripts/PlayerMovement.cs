@@ -4,6 +4,21 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    #region singleton
+
+    public static PlayerMovement _instance;
+
+
+    private void Awake()
+    {
+        if (_instance == null)
+        {
+            _instance = this;
+        }
+    }
+
+    #endregion
+    
     public float speed;
 
     private float _timerParticle = .3f;
