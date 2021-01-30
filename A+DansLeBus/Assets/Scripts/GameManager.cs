@@ -26,11 +26,12 @@ public class GameManager : MonoBehaviour
     public List<GameObject> objectsToCatch = new List<GameObject>();
     public List<GameObject> objectsCatchByPlayer = new List<GameObject>();
 
-    public List<Transform> bigObjectTransform;
+    public List<Transform> bigObjectTransform = new List<Transform>();
     public List<Transform> spawnPoints;
 
     public List<Image> imageObjectif;
 
+    public BigObject[] bigObjects;
 
     #region singleton
 
@@ -39,7 +40,6 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        Init();
         if (gm == null)
         {
             gm = this;
@@ -49,15 +49,14 @@ public class GameManager : MonoBehaviour
     #endregion
 
     // Start is called before the first frame update
-    void Init()
+    void Start()
     {
         timerTxt.transform.DOScale(new Vector3(1.2f, 1.2f, 0), 1).SetLoops(100, LoopType.Yoyo);
         Cursor.visible = false;
-        BigObject[] bigObjects;
         bigObjects = FindObjectsOfType<BigObject>();
-        foreach (var bigObject in bigObjects)
+        for (int i = 0; i < bigObjects.Length; i++)
         {
-            bigObjectTransform.Add(bigObject.transform);
+            bigObjectTransform.Add(bigObjects[i].transform);
         }
 
         for (int i = 0; i < numbersObjectsToFind; i++)
