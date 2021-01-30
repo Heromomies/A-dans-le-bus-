@@ -38,8 +38,8 @@ public class BigObject : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            Camera.main.DOShakePosition(0.5f, 0.2f, 90, 2);
-            Camera.main.DOShakeRotation(0.5f, .2f, 90, 2);
+            Camera.main.DOShakePosition(0.5f, 0.1f, 90, 0.5f);
+            Camera.main.DOShakeRotation(0.5f, .1f, 90, .5f);
             Damage(1);
         }
     }
