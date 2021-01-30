@@ -131,6 +131,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   particleExplosion: {fileID: 8640820554211036195}
   objectLife: 1
+  hasObjectHidden: 0
+  objectHidden: {fileID: 0}
+  transform: {fileID: 0}
+  vfxSplashWater: {fileID: 0}
 --- !u!1001 &102582707601388744
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -97,6 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPickable: 0
+  vfx_liquide: {fileID: 0}
 --- !u!60 &2544441832165833945
 PolygonCollider2D:
   m_ObjectHideFlags: 0

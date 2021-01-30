@@ -109,12 +109,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.099999994, y: 0.08}
-      - {x: -0.099999994, y: -0.06}
-      - {x: 0.099999994, y: -0.06}
-      - {x: 0.099999994, y: 0.08}
-      - {x: 0.08, y: 0.099999994}
-      - {x: -0.08, y: 0.099999994}
+    - - {x: -0.08381478, y: 0.08129523}
+      - {x: -0.08251996, y: -0.041866425}
+      - {x: 0.08187255, y: -0.04316172}
+      - {x: 0.08381478, y: 0.07481896}
+      - {x: 0.080000006, y: 0.08316172}
+      - {x: -0.065109596, y: 0.08186649}
 --- !u!114 &7186830075669003432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128,6 +128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPickable: 0
+  vfx_liquide: {fileID: 0}
 --- !u!1001 &9218314686976728791
 PrefabInstance:
   m_ObjectHideFlags: 0

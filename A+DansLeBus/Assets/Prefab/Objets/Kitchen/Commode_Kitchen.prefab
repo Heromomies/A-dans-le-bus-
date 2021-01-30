@@ -112,8 +112,8 @@ PolygonCollider2D:
     m_Paths:
     - - {x: -0.16, y: -0.32}
       - {x: 0.16, y: -0.32}
-      - {x: 0.16, y: 0.11}
-      - {x: -0.16, y: 0.11}
+      - {x: 0.16116427, y: 0.090201475}
+      - {x: -0.1588358, y: 0.090201475}
 --- !u!50 &3336804519486380757
 Rigidbody2D:
   serializedVersion: 4
@@ -152,6 +152,7 @@ MonoBehaviour:
   hasObjectHidden: 0
   objectHidden: {fileID: 0}
   transform: {fileID: 0}
+  vfxSplashWater: {fileID: 0}
 --- !u!1001 &85252464257808273
 PrefabInstance:
   m_ObjectHideFlags: 0
