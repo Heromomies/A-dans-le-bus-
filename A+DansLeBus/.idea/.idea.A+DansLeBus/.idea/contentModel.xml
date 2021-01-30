@@ -102,6 +102,7 @@
         <e p="Scripts" t="Include">
           <e p="Electricity" t="Include">
             <e p="Electricity.cs" t="Include" />
+            <e p="ElectrictyAndWater.cs" t="Include" />
             <e p="Water.cs" t="Include" />
           </e>
           <e p="GameManager.cs" t="Include" />

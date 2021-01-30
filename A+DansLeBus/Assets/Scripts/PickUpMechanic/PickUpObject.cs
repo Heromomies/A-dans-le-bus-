@@ -23,6 +23,5 @@ public class PickUpObject : MonoBehaviour
             BigObject._instance.Damage(1);
         }
     }
-    
 }
  
