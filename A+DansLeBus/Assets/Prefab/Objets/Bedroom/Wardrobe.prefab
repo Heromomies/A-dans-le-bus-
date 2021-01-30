@@ -111,8 +111,8 @@ PolygonCollider2D:
     m_Paths:
     - - {x: -0.16, y: -0.32}
       - {x: 0.16, y: -0.32}
-      - {x: 0.16, y: 0.17999999}
-      - {x: -0.16, y: 0.17999999}
+      - {x: 0.16, y: 0.16034739}
+      - {x: -0.16, y: 0.16104923}
 --- !u!114 &5922145794544197769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -127,6 +127,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   particleExplosion: {fileID: 5314924498339639562}
   objectLife: 3
+  hasObjectHidden: 0
+  objectHidden: {fileID: 0}
+  transform: {fileID: 0}
+  vfxSplashWater: {fileID: 0}
 --- !u!1001 &4558849285261036001
 PrefabInstance:
   m_ObjectHideFlags: 0

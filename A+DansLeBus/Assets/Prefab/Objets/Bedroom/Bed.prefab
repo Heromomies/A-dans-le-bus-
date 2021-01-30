@@ -110,11 +110,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.14, y: 0.08}
-      - {x: -0.16, y: 0.08}
+    - - {x: -0.13674277, y: 0.03346734}
+      - {x: -0.13801827, y: 0.05918463}
+      - {x: -0.16164431, y: 0.059439287}
       - {x: -0.16, y: -0.16}
       - {x: 0.16, y: -0.16}
-      - {x: 0.16, y: 0.07}
+      - {x: 0.15628938, y: 0.052678037}
 --- !u!114 &1446361435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128,6 +129,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPickable: 0
+  vfx_liquide: {fileID: 0}
 --- !u!114 &6866868783914414600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142,6 +144,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   particleExplosion: {fileID: 4857263783989616724}
   objectLife: 3
+  hasObjectHidden: 0
+  objectHidden: {fileID: 0}
+  transform: {fileID: 0}
+  vfxSplashWater: {fileID: 0}
 --- !u!1001 &3886141675887335615
 PrefabInstance:
   m_ObjectHideFlags: 0

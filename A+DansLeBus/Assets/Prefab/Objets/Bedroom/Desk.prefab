@@ -98,6 +98,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   particleExplosion: {fileID: 7357775357339324387}
   objectLife: 3
+  hasObjectHidden: 0
+  objectHidden: {fileID: 0}
+  transform: {fileID: 0}
+  vfxSplashWater: {fileID: 0}
 --- !u!60 &8813261864000453060
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -123,9 +127,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.14999999, y: 0.32}
-      - {x: -0.16, y: 0.31}
-      - {x: -0.16, y: -0.32}
+    - - {x: -0.13626286, y: 0.30625832}
+      - {x: -0.15313147, y: 0.29282284}
+      - {x: -0.14109364, y: -0.3094261}
+      - {x: -0.14073697, y: -0.32}
+      - {x: -0.09889229, y: -0.32071373}
+      - {x: -0.09867827, y: -0.30120656}
+      - {x: 0.119107656, y: -0.30092737}
+      - {x: 0.119446605, y: -0.3215113}
       - {x: 0.16, y: -0.32}
       - {x: 0.16, y: 0.32}
 --- !u!1001 &1196338310228506376
