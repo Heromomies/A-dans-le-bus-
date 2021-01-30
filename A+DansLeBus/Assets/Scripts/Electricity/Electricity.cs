@@ -5,12 +5,13 @@ using UnityEngine;
 
 public class Electricity : MonoBehaviour
 {
+    private List<GameObject> _waterObject = new List<GameObject>();
     public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.GetComponent<Water>() != null)
         {
             other.GetComponent<Water>().CreateElectricity();
-            Destroy(gameObject, 0.5f);
+            gameObject.SetActive(false);
         }
     }
 }

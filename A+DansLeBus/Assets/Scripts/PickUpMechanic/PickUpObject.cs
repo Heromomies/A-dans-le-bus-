@@ -12,8 +12,7 @@ public class PickUpObject : MonoBehaviour
     
     private void OnTriggerStay2D(Collider2D other)
     {
-        //TODO ramassage d'objets + comparer si l'objet peut être ramasser 
-        if (Input.GetKey(KeyCode.E) && isPickable)
+        if (Input.GetMouseButtonDown(0) && isPickable)
         {
             GameManager.gm.objectsCatchByPlayer.Add(gameObject);
             GameManager.gm.CheckIfVictory();
