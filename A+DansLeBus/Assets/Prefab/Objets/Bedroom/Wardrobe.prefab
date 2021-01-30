@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7701575213286339743}
   - component: {fileID: 3249251011025321852}
   - component: {fileID: 994706236}
+  - component: {fileID: 5922145794544197769}
   m_Layer: 0
   m_Name: Wardrobe
   m_TagString: Untagged
@@ -124,5 +125,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 008ff4e968c437846a3d773faad11324, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectsPickUp: []
   isPickable: 0
+--- !u!114 &5922145794544197769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7701575213286339742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70344b50d7cabf74896303b97869096c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToInstantiate: []
+  spawnPoints: []
+  objectLife: 0
