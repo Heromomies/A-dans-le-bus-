@@ -4,6 +4,21 @@ using UnityEngine;
 
 public class BigObject : MonoBehaviour
 {
+    #region singleton
+
+    public static BigObject _instance;
+
+
+    private void Awake()
+    {
+        if (_instance == null)
+        {
+            _instance = this;
+        }
+    }
+
+    #endregion
+    
     public List<GameObject> objectToInstantiate;
     public List<Transform> spawnPoints;
     
@@ -18,6 +33,7 @@ public class BigObject : MonoBehaviour
             {
                 int randomPos = Random.Range(0, spawnPoints.Count);
                 Instantiate(oti, spawnPoints[randomPos].position, Quaternion.identity);
+                spawnPoints.RemoveAt(randomPos);
             }
             Destroy(gameObject);
         }
@@ -26,5 +42,6 @@ public class BigObject : MonoBehaviour
     public void Damage(int amount)
     {
         objectLife -= amount;
+        Debug.Log(objectLife);
     }
 }
