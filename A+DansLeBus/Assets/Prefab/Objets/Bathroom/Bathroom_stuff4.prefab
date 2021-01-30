@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8769781131643538456}
   - component: {fileID: 8769781131643538455}
-  - component: {fileID: 5378064751570698398}
   - component: {fileID: 2034571857}
+  - component: {fileID: 6117832005605920536}
   m_Layer: 0
   m_Name: Bathroom_stuff4
   m_TagString: Untagged
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 6590639093e123d47bf3fd56a2af9da2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -84,7 +84,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &5378064751570698398
+--- !u!114 &2034571857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8769781131643538454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 008ff4e968c437846a3d773faad11324, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPickable: 0
+--- !u!60 &6117832005605920536
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -109,30 +122,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.084485054, y: -0.018334314}
-      - {x: -0.07795203, y: -0.062290944}
-      - {x: -0.049999997, y: -0.07}
-      - {x: 0.03, y: -0.07}
-      - {x: 0.049999997, y: -0.06}
-      - {x: 0.08708668, y: 0.033645324}
-      - {x: 0.08089076, y: 0.068684265}
-      - {x: 0.03, y: 0.08}
-      - {x: -0.01, y: 0.08}
-      - {x: -0.049999997, y: 0.07}
---- !u!114 &2034571857
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8769781131643538454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 008ff4e968c437846a3d773faad11324, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isPickable: 0
-  isBigObject: 0
+    - - {x: 0.099999994, y: 0.089999996}
+      - {x: -0.06, y: 0.089999996}
+      - {x: -0.099999994, y: 0.08}
+      - {x: -0.099999994, y: -0.08}
+      - {x: -0.08, y: -0.089999996}
+      - {x: 0.06, y: -0.089999996}
+      - {x: 0.08, y: -0.06}
+      - {x: 0.099999994, y: 0.02}
 --- !u!1001 &4672987792088935584
 PrefabInstance:
   m_ObjectHideFlags: 0

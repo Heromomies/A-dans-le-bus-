@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3932357129420541228}
   - component: {fileID: 3932357129420541219}
-  - component: {fileID: 8211025022782184183}
   - component: {fileID: 710450040}
   - component: {fileID: 1824362823902543182}
   - component: {fileID: 6112204080148588769}
+  - component: {fileID: -6386513091833236046}
   m_Layer: 0
   m_Name: Bathroom_stuff10
   m_TagString: Untagged
@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 3932357129420541218}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.557, y: -0.597, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 8959023943416962407}
   m_Father: {fileID: 0}
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: a0874a1441c3e9b4badbf1518185c4cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -86,40 +86,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &8211025022782184183
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3932357129420541218}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.32, y: 0.32}
-    newSize: {x: 0.32, y: 0.32}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.03, y: 0.12}
-      - {x: -0.16, y: -0.03}
-      - {x: -0.16, y: -0.089999996}
-      - {x: -0.07, y: -0.14999999}
-      - {x: 0.02, y: -0.14999999}
-      - {x: 0.11, y: -0.089999996}
-      - {x: 0.14999999, y: 0.01}
-      - {x: 0.14999999, y: 0.049999997}
-      - {x: 0.049999997, y: 0.12}
 --- !u!114 &710450040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133,7 +99,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPickable: 0
-  isBigObject: 0
 --- !u!114 &1824362823902543182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -167,6 +132,40 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!60 &-6386513091833236046
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3932357129420541218}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.03, y: 0.12}
+      - {x: -0.16, y: -0.03}
+      - {x: -0.16, y: -0.089999996}
+      - {x: -0.07, y: -0.14999999}
+      - {x: 0.02, y: -0.14999999}
+      - {x: 0.11, y: -0.089999996}
+      - {x: 0.14999999, y: 0.01}
+      - {x: 0.14999999, y: 0.049999997}
+      - {x: 0.049999997, y: 0.12}
 --- !u!1001 &6541173141813294382
 PrefabInstance:
   m_ObjectHideFlags: 0

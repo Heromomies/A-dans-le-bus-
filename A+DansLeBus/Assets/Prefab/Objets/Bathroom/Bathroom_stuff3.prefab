@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4542455523838548391}
   - component: {fileID: 4542455523838548392}
-  - component: {fileID: 872633069780784417}
   - component: {fileID: 538144271}
+  - component: {fileID: 8043925713162243113}
   m_Layer: 0
   m_Name: Bathroom_stuff3
   m_TagString: Untagged
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 26fc7271318601642977b62152a00fdf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -84,7 +84,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &872633069780784417
+--- !u!114 &538144271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4542455523838548393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 008ff4e968c437846a3d773faad11324, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPickable: 0
+--- !u!60 &8043925713162243113
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -109,27 +122,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.049999997, y: -0.07}
-      - {x: 0.03, y: -0.07}
-      - {x: 0.049999997, y: -0.06}
-      - {x: 0.049999997, y: 0.04}
-      - {x: 0.03, y: 0.08}
-      - {x: -0.01, y: 0.08}
-      - {x: -0.049999997, y: 0.07}
---- !u!114 &538144271
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4542455523838548393}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 008ff4e968c437846a3d773faad11324, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isPickable: 0
-  isBigObject: 0
+    - - {x: 0.01, y: 0.07}
+      - {x: -0.04, y: 0.049999997}
+      - {x: -0.049999997, y: 0.02}
+      - {x: -0.049999997, y: -0.049999997}
+      - {x: -0.02, y: -0.06}
+      - {x: 0.03, y: -0.06}
+      - {x: 0.049999997, y: -0.01}
+      - {x: 0.049999997, y: 0.07}
 --- !u!1001 &7845765089141674746
 PrefabInstance:
   m_ObjectHideFlags: 0

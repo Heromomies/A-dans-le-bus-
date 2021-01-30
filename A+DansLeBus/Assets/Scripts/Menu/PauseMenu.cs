@@ -8,7 +8,7 @@ public class PauseMenu : MonoBehaviour
 	public static bool GameIsPaused;
 
 	public GameObject pauseMenuUI1;
-	public GameObject choseLevelPanel;
+	//public GameObject choseLevelPanel;
 	
 	void Update() // Appuyer sur la touche Echap pour : 
 	{
@@ -29,7 +29,11 @@ public class PauseMenu : MonoBehaviour
 		Time.timeScale = 1f;
 		GameIsPaused = false;
 	}
-
+	public void Restart() // Remet le jeu 
+	{
+		Time.timeScale = 1f;
+		SceneManager.LoadScene(0);
+	}
 	void Pause() // Freeze le temps et le jeu
 	{
 		pauseMenuUI1.SetActive(true);
@@ -41,33 +45,5 @@ public class PauseMenu : MonoBehaviour
 	{
 		Time.timeScale = 1f;
 		SceneManager.LoadScene(0);
-	}
-
-	public void LoadPanelLevel()
-	{
-		choseLevelPanel.SetActive(true);
-		pauseMenuUI1.SetActive(false);
-	}
-
-	public void ChoseLevel(int levelNumber)
-	{
-		switch (levelNumber)
-		{
-			case 1:
-				SceneManager.LoadScene(1);
-				break;
-			case 2:
-				SceneManager.LoadScene(2);
-				break;
-			case 3:
-				SceneManager.LoadScene(3);
-				break;
-		}
-	}
-
-	public void Return()
-	{
-		choseLevelPanel.SetActive(false);
-		pauseMenuUI1.SetActive(true);
 	}
 }

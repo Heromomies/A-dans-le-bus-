@@ -1,47 +1,79 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class BigObject : MonoBehaviour
 {
-    #region singleton
+    public ParticleSystem particleExplosion;
 
-    public static BigObject _instance;
+    public int objectLife;
 
+    private bool _playOnce = true;
 
+    public bool hasObjectHidden = false;
+    public GameObject objectHidden;
+
+    public new Transform transform;
+    [SerializeField]
+    private GameObject vfxSplashWater;
     private void Awake()
     {
-        if (_instance == null)
+        transform = gameObject.transform;
+    }
+
+    private void Start()
+    {
+        if (objectHidden != null)
         {
-            _instance = this;
+            objectHidden.SetActive(false);
         }
     }
 
-    #endregion
-    
-    public List<GameObject> objectToInstantiate;
-    public List<Transform> spawnPoints;
-    
-    public int objectLife;
-    
     // Update is called once per frame
     void Update()
     {
-        if (objectLife <= 0)
+        if (objectLife <= 0 && _playOnce)
         {
-            foreach (var oti in objectToInstantiate)
+            StartCoroutine(DisableObject());
+            if (hasObjectHidden)
             {
-                int randomPos = Random.Range(0, spawnPoints.Count);
-                Instantiate(oti, spawnPoints[randomPos].position, Quaternion.identity);
-                spawnPoints.RemoveAt(randomPos);
+                objectHidden.SetActive(true);
             }
-            Destroy(gameObject);
+
+            _playOnce = false;
         }
+    }
+
+    IEnumerator DisableObject()
+    {
+        if (vfxSplashWater != null)
+        {
+            GameObject vfx = Instantiate(vfxSplashWater, transform.position, Quaternion.identity);
+            Destroy(vfx, 3f);
+        }
+        particleExplosion.Play();
+        GetComponent<SpriteRenderer>().sprite = null;
+        GetComponent<PolygonCollider2D>().enabled = false;
+        yield return new WaitForSeconds(5.5f);
+        gameObject.SetActive(false);
     }
 
     public void Damage(int amount)
     {
         objectLife -= amount;
         Debug.Log(objectLife);
+    }
+
+    private void OnCollisionStay2D(Collision2D other)
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            Camera.main.DOShakePosition(0.5f, 0.1f, 90, 0.5f);
+            Camera.main.DOShakeRotation(0.5f, .1f, 90, .5f);
+            Damage(1);
+        }
     }
 }

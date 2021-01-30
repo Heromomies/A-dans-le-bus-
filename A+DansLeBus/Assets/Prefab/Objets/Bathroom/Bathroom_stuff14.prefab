@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4429647796969880757}
   - component: {fileID: 4429647796969880762}
-  - component: {fileID: -5864476094834863380}
   - component: {fileID: 85663072}
+  - component: {fileID: 4095107913060718583}
   m_Layer: 0
   m_Name: Bathroom_stuff14
   m_TagString: Untagged
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 619b425ccd0c67e45a03aac8ef51c4fc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -84,7 +84,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &-5864476094834863380
+--- !u!114 &85663072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4429647796969880763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 008ff4e968c437846a3d773faad11324, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPickable: 0
+--- !u!60 &4095107913060718583
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -116,20 +129,6 @@ PolygonCollider2D:
       - {x: 0.06, y: -0.049999997}
       - {x: 0.06, y: 0.049999997}
       - {x: 0.03, y: 0.08}
---- !u!114 &85663072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4429647796969880763}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 008ff4e968c437846a3d773faad11324, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isPickable: 0
-  isBigObject: 0
 --- !u!1001 &4059391662152600530
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -140,12 +139,12 @@ PrefabInstance:
     - target: {fileID: 2779339581165480009, guid: 89c137ae5d0eed743ba486a1cd6a213b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.0595
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2779339581165480009, guid: 89c137ae5d0eed743ba486a1cd6a213b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.2985
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2779339581165480009, guid: 89c137ae5d0eed743ba486a1cd6a213b,
         type: 3}
@@ -155,17 +154,17 @@ PrefabInstance:
     - target: {fileID: 2779339581165480009, guid: 89c137ae5d0eed743ba486a1cd6a213b,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2779339581165480009, guid: 89c137ae5d0eed743ba486a1cd6a213b,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2779339581165480009, guid: 89c137ae5d0eed743ba486a1cd6a213b,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2779339581165480009, guid: 89c137ae5d0eed743ba486a1cd6a213b,
         type: 3}
@@ -195,17 +194,17 @@ PrefabInstance:
     - target: {fileID: 2779339581165480009, guid: 89c137ae5d0eed743ba486a1cd6a213b,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2779339581165480009, guid: 89c137ae5d0eed743ba486a1cd6a213b,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2779339581165480009, guid: 89c137ae5d0eed743ba486a1cd6a213b,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6491871365306891877, guid: 89c137ae5d0eed743ba486a1cd6a213b,
         type: 3}

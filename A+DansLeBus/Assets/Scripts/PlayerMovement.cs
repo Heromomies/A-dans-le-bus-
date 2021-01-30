@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     #endregion
-    
+
     public float speed;
 
     private float _timerParticle = .3f;
@@ -26,6 +26,8 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D _rb;
 
     public ParticleSystem dust;
+    [SerializeField]
+    private Animator _animator; 
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +39,15 @@ public class PlayerMovement : MonoBehaviour
     {
         float xMove = Input.GetAxisRaw("Horizontal");
         float yMove = Input.GetAxisRaw("Vertical");
+
+        if (xMove != 0 && yMove != 0)
+        {
+            xMove /= 2;
+            yMove /= 2;
+        }
+        _animator.SetFloat("Horizontal", xMove);
+        _animator.SetFloat("Vertical", yMove);
+        _animator.SetFloat("Speed", _rb.velocity.sqrMagnitude);
         
         _rb.AddForce(new Vector3(xMove * Time.deltaTime * speed, yMove * Time.deltaTime * speed, 0));
         if (xMove != 0 || yMove != 0)
