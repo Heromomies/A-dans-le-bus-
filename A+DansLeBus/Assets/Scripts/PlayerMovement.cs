@@ -26,7 +26,8 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D _rb;
 
     public ParticleSystem dust;
-
+    [SerializeField]
+    private Animator _animator; 
     // Start is called before the first frame update
     void Start()
     {
@@ -44,7 +45,10 @@ public class PlayerMovement : MonoBehaviour
             xMove /= 2;
             yMove /= 2;
         }
-
+        _animator.SetFloat("Horizontal", xMove);
+        _animator.SetFloat("Vertical", yMove);
+        _animator.SetFloat("Speed", _rb.velocity.sqrMagnitude);
+        
         _rb.AddForce(new Vector3(xMove * Time.deltaTime * speed, yMove * Time.deltaTime * speed, 0));
         if (xMove != 0 || yMove != 0)
         {

@@ -17,7 +17,8 @@ public class BigObject : MonoBehaviour
     public GameObject objectHidden;
 
     public new Transform transform;
-
+    [SerializeField]
+    private GameObject vfxSplashWater;
     private void Awake()
     {
         transform = gameObject.transform;
@@ -48,6 +49,11 @@ public class BigObject : MonoBehaviour
 
     IEnumerator DisableObject()
     {
+        if (vfxSplashWater != null)
+        {
+            GameObject vfx = Instantiate(vfxSplashWater, transform.position, Quaternion.identity);
+            Destroy(vfx, 3f);
+        }
         particleExplosion.Play();
         GetComponent<SpriteRenderer>().sprite = null;
         GetComponent<PolygonCollider2D>().enabled = false;

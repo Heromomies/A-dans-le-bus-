@@ -2623,6 +2623,7 @@ MonoBehaviour:
   - {fileID: 471943345}
   objectsToCatch: []
   objectsCatchByPlayer: []
+  bigObjectTransform: []
   spawnPoints:
   - {fileID: 1157905918}
   - {fileID: 276390586}
