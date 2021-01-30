@@ -126,6 +126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPickable: 0
+  isBigObject: 1
 --- !u!114 &5922145794544197769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,4 +141,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: []
   spawnPoints: []
-  objectLife: 0
+  objectLife: 3
