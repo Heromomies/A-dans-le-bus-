@@ -30,7 +30,7 @@ public class BigObject : MonoBehaviour
         particleExplosion.Play();
         GetComponent<SpriteRenderer>().sprite = null;
         GetComponent<PolygonCollider2D>().enabled = false;
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(5.5f);
         gameObject.SetActive(false);
     }
 public void Damage(int amount)
@@ -41,7 +41,7 @@ public void Damage(int amount)
 
     private void OnCollisionStay2D(Collision2D other)
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetMouseButtonDown(0))
         {
             Camera.main.DOShakePosition(0.5f, 0.1f, 90, 0.5f);
             Camera.main.DOShakeRotation(0.5f, .1f, 90, .5f);
