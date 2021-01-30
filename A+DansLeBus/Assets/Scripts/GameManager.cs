@@ -26,6 +26,7 @@ public class GameManager : MonoBehaviour
     public List<GameObject> objectsToCatch = new List<GameObject>();
     public List<GameObject> objectsCatchByPlayer = new List<GameObject>();
 
+    public List<Transform> bigObjectTransform;
     public List<Transform> spawnPoints;
 
     public List<Image> imageObjectif;
@@ -38,6 +39,7 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        Init();
         if (gm == null)
         {
             gm = this;
@@ -47,10 +49,17 @@ public class GameManager : MonoBehaviour
     #endregion
 
     // Start is called before the first frame update
-    void Start()
+    void Init()
     {
         timerTxt.transform.DOScale(new Vector3(1.2f, 1.2f, 0), 1).SetLoops(100, LoopType.Yoyo);
         Cursor.visible = false;
+        BigObject[] bigObjects;
+        bigObjects = FindObjectsOfType<BigObject>();
+        foreach (var bigObject in bigObjects)
+        {
+            bigObjectTransform.Add(bigObject.transform);
+        }
+
         for (int i = 0; i < numbersObjectsToFind; i++)
         {
             int randomObjectIndex = Random.Range(0, allGameObjects.Count);
@@ -69,8 +78,19 @@ public class GameManager : MonoBehaviour
         for (int i = 0; i < objectsToCatch.Count; i++)
         {
             int randomPos = Random.Range(0, spawnPoints.Count);
-            objectsToCatch[i].transform.position = spawnPoints[randomPos].position;
-            spawnPoints.RemoveAt(randomPos);
+            int bigObjectOrRandomPos = Random.Range(0, 2);
+            if (bigObjectOrRandomPos == 1)
+            {
+                objectsToCatch[i].transform.position = spawnPoints[randomPos].position;
+                spawnPoints.RemoveAt(randomPos);
+            }
+            else
+            {
+                objectsToCatch[i].transform.position = bigObjectTransform[randomPos].position;
+                bigObjectTransform[randomPos].GetComponent<BigObject>().hasObjectHidden = true;
+                bigObjectTransform[randomPos].GetComponent<BigObject>().objectHidden = objectsToCatch[i];
+                bigObjectTransform.RemoveAt(randomPos);
+            }
         }
     }
 
