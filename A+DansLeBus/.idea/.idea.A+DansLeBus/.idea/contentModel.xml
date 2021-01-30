@@ -101,6 +101,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="GameManager.cs" t="Include" />
+          <e p="HighlightObject.cs" t="Include" />
           <e p="Menu" t="Include">
             <e p="Menu.cs" t="Include" />
             <e p="PauseMenu.cs" t="Include" />
