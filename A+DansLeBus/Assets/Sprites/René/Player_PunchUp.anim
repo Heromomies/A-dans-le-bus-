@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PlayerPunchRight
+  m_Name: Player_PunchUp
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,7 +20,7 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 8805634695271956607, guid: 1de65eb2258271a45af31704d32d1a3a,
+      value: {fileID: -1378366102024288386, guid: 1de65eb2258271a45af31704d32d1a3a,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -41,7 +41,7 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 8805634695271956607, guid: 1de65eb2258271a45af31704d32d1a3a, type: 3}
+    - {fileID: -1378366102024288386, guid: 1de65eb2258271a45af31704d32d1a3a, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

@@ -59,5 +59,30 @@ public class PlayerMovement : MonoBehaviour
                 _timerParticle = .3f;
             }
         }
+
+
+        Vector2 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+       
+        if (Input.GetMouseButtonDown(0) && yMove > 0)
+        {
+            _animator.SetTrigger("Attack_Up");
+        }
+
+      else if (Input.GetMouseButtonDown(0) && yMove < 0)
+        {
+            _animator.SetTrigger("Attack_Down");
+        }
+
+        else if (Input.GetMouseButtonDown(0) && xMove > 0)
+        {
+            _animator.SetTrigger("AttackRight");
+        }
+
+      else if (Input.GetMouseButtonDown(0) && xMove < 0)
+        {
+            
+            _animator.SetTrigger("Attack_Left");
+        }
     }
+    
 }
