@@ -16,8 +16,8 @@ public class GameManager : MonoBehaviour
     
     public GameObject timerTxt;
     
-    public List<GameObject> allGameObjects;
-    public List<GameObject> objectsToCatch;
+    public List<GameObject> allGameObjects = new List<GameObject>();
+    public List<GameObject> objectsToCatch = new List<GameObject>();
 
     public List<Transform> spawnPoints;
 
