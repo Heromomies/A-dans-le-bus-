@@ -1,0 +1,1925 @@
+fileFormatVersion: 2
+guid: 59346df6434f82049897cc8cafc9733a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4135464680945987721
+    second: Til_map_walls_9_0
+  - first:
+      213: -6548011828678616011
+    second: Til_map_walls_9_1
+  - first:
+      213: -3331420278526770855
+    second: Til_map_walls_9_2
+  - first:
+      213: 2708297844530604615
+    second: Til_map_walls_9_3
+  - first:
+      213: 6247403545025336731
+    second: Til_map_walls_9_4
+  - first:
+      213: -1673121503382114837
+    second: Til_map_walls_9_5
+  - first:
+      213: -4961840604598420871
+    second: Til_map_walls_9_6
+  - first:
+      213: -8147181696720787335
+    second: Til_map_walls_9_7
+  - first:
+      213: -8426455407814449626
+    second: Til_map_walls_9_8
+  - first:
+      213: -9110972933421581525
+    second: Til_map_walls_9_9
+  - first:
+      213: -4744310639795697267
+    second: Til_map_walls_9_10
+  - first:
+      213: -632104065101807254
+    second: Til_map_walls_9_11
+  - first:
+      213: 4059855867350793396
+    second: Til_map_walls_9_12
+  - first:
+      213: 6589833052407904727
+    second: Til_map_walls_9_13
+  - first:
+      213: -8506096431548141314
+    second: Til_map_walls_9_14
+  - first:
+      213: 7280785925260017683
+    second: Til_map_walls_9_15
+  - first:
+      213: 7209612827648222409
+    second: Til_map_walls_9_16
+  - first:
+      213: 5342640062915625126
+    second: Til_map_walls_9_17
+  - first:
+      213: -6356039004061114851
+    second: Til_map_walls_9_18
+  - first:
+      213: 6169223896822701718
+    second: Til_map_walls_9_19
+  - first:
+      213: -9097138552663591662
+    second: Til_map_walls_9_20
+  - first:
+      213: 5125076932119480041
+    second: Til_map_walls_9_21
+  - first:
+      213: 708032368179299287
+    second: Til_map_walls_9_22
+  - first:
+      213: -6324051288062868481
+    second: Til_map_walls_9_23
+  - first:
+      213: -1115854401546460575
+    second: Til_map_walls_9_24
+  - first:
+      213: 9182197530365415940
+    second: Til_map_walls_9_25
+  - first:
+      213: 6571104849009584379
+    second: Til_map_walls_9_26
+  - first:
+      213: -1211094686201225704
+    second: Til_map_walls_9_27
+  - first:
+      213: 8584926191543746167
+    second: Til_map_walls_9_28
+  - first:
+      213: -1672079673424668648
+    second: Til_map_walls_9_29
+  - first:
+      213: -1189430942488721067
+    second: Til_map_walls_9_30
+  - first:
+      213: 8960772420328166828
+    second: Til_map_walls_9_31
+  - first:
+      213: -8150697656562030449
+    second: Til_map_walls_9_32
+  - first:
+      213: -7715130380591904277
+    second: Til_map_walls_9_33
+  - first:
+      213: -184960987047390555
+    second: Til_map_walls_9_34
+  - first:
+      213: 3464598950770243477
+    second: Til_map_walls_9_35
+  - first:
+      213: 191184067344630867
+    second: Til_map_walls_9_36
+  - first:
+      213: 8109838609979228107
+    second: Til_map_walls_9_37
+  - first:
+      213: -755169138611761555
+    second: Til_map_walls_9_38
+  - first:
+      213: 244053998443102106
+    second: Til_map_walls_9_39
+  - first:
+      213: -6613138695191060375
+    second: Til_map_walls_9_40
+  - first:
+      213: -4089793716686067864
+    second: Til_map_walls_9_41
+  - first:
+      213: -9069475693364740854
+    second: Til_map_walls_9_42
+  - first:
+      213: 7979206603651240712
+    second: Til_map_walls_9_43
+  - first:
+      213: 4385617175393572821
+    second: Til_map_walls_9_44
+  - first:
+      213: -7722457708061841186
+    second: Til_map_walls_9_45
+  - first:
+      213: 5894669237443572592
+    second: Til_map_walls_9_46
+  - first:
+      213: 5766247750911761164
+    second: Til_map_walls_9_47
+  - first:
+      213: -6345429265745286929
+    second: Til_map_walls_9_48
+  - first:
+      213: -7147169862496193225
+    second: Til_map_walls_9_49
+  - first:
+      213: -6873121238120421087
+    second: Til_map_walls_9_50
+  - first:
+      213: 3418207372537590791
+    second: Til_map_walls_9_51
+  - first:
+      213: 6182160617678209949
+    second: Til_map_walls_9_52
+  - first:
+      213: -5290643699243369708
+    second: Til_map_walls_9_53
+  - first:
+      213: 261664346893822464
+    second: Til_map_walls_9_54
+  - first:
+      213: 1944363548432811211
+    second: Til_map_walls_9_55
+  - first:
+      213: 2347181734617107818
+    second: Til_map_walls_9_56
+  - first:
+      213: 7897611005285067410
+    second: Til_map_walls_9_57
+  - first:
+      213: 7228701631288712071
+    second: Til_map_walls_9_58
+  - first:
+      213: -3643501981893887015
+    second: Til_map_walls_9_59
+  - first:
+      213: -1115662799935227735
+    second: Til_map_walls_9_60
+  - first:
+      213: 481793167833577491
+    second: Til_map_walls_9_61
+  - first:
+      213: -8675421038103442980
+    second: Til_map_walls_9_62
+  - first:
+      213: 3429051115690663868
+    second: Til_map_walls_9_63
+  - first:
+      213: 5301891048393879327
+    second: Til_map_walls_9_64
+  - first:
+      213: 8714067730574210692
+    second: Til_map_walls_9_65
+  - first:
+      213: -8870274305131205627
+    second: Til_map_walls_9_66
+  - first:
+      213: -4011476568945309910
+    second: Til_map_walls_9_67
+  - first:
+      213: -5047252320355949000
+    second: Til_map_walls_9_68
+  - first:
+      213: 6230449699393835119
+    second: Til_map_walls_9_69
+  - first:
+      213: 174766369896796221
+    second: Til_map_walls_9_70
+  - first:
+      213: 6901307714283235079
+    second: Til_map_walls_9_71
+  - first:
+      213: 3306227338557422818
+    second: Til_map_walls_9_72
+  - first:
+      213: 4017071033907115010
+    second: Til_map_walls_9_73
+  - first:
+      213: 381044604448270202
+    second: Til_map_walls_9_74
+  - first:
+      213: 3934228817305137308
+    second: Til_map_walls_9_75
+  - first:
+      213: -538458841989581157
+    second: Til_map_walls_9_76
+  - first:
+      213: -5239575777509804897
+    second: Til_map_walls_9_77
+  - first:
+      213: -3506939755815000274
+    second: Til_map_walls_9_78
+  - first:
+      213: 6980631877178492262
+    second: Til_map_walls_9_79
+  - first:
+      213: -4443577802728951666
+    second: Til_map_walls_9_80
+  - first:
+      213: -5125454494041378870
+    second: Til_map_walls_9_81
+  - first:
+      213: -5036007080631872357
+    second: Til_map_walls_9_82
+  - first:
+      213: 7701928238236684076
+    second: Til_map_walls_9_83
+  - first:
+      213: -5469323037399311405
+    second: Til_map_walls_9_84
+  - first:
+      213: 3251568643117567087
+    second: Til_map_walls_9_85
+  - first:
+      213: -2973618444144673875
+    second: Til_map_walls_9_86
+  - first:
+      213: 4936559913803872105
+    second: Til_map_walls_9_87
+  - first:
+      213: -8979294131177645969
+    second: Til_map_walls_9_88
+  - first:
+      213: 4087262635653775025
+    second: Til_map_walls_9_89
+  - first:
+      213: -1016270138112648
+    second: Til_map_walls_9_90
+  - first:
+      213: 3560384764147866607
+    second: Til_map_walls_9_91
+  - first:
+      213: 2114640964851228544
+    second: Til_map_walls_9_92
+  - first:
+      213: -1935187375511547682
+    second: Til_map_walls_9_93
+  - first:
+      213: -8762012889663673497
+    second: Til_map_walls_9_94
+  - first:
+      213: -4340477450096546315
+    second: Til_map_walls_9_95
+  - first:
+      213: 1617163161111391319
+    second: Til_map_walls_9_96
+  - first:
+      213: 2852781198135484725
+    second: Til_map_walls_9_97
+  - first:
+      213: 9044068756167087628
+    second: Til_map_walls_9_98
+  - first:
+      213: 7684368060763054777
+    second: Til_map_walls_9_99
+  - first:
+      213: 2875724343168476096
+    second: Til_map_walls_9_100
+  - first:
+      213: -3994567898883130974
+    second: Til_map_walls_9_101
+  - first:
+      213: 3749101677906940530
+    second: Til_map_walls_9_102
+  - first:
+      213: 1724088702293795324
+    second: Til_map_walls_9_103
+  - first:
+      213: 4446467484924917630
+    second: Til_map_walls_9_104
+  - first:
+      213: 5698145321184485248
+    second: Til_map_walls_9_105
+  - first:
+      213: 549420101230045733
+    second: Til_map_walls_9_106
+  - first:
+      213: -7248916650625701865
+    second: Til_map_walls_9_107
+  - first:
+      213: -5718499847544338367
+    second: Til_map_walls_9_108
+  - first:
+      213: -257771779280163600
+    second: Til_map_walls_9_109
+  - first:
+      213: 6188137990137070751
+    second: Til_map_walls_9_110
+  - first:
+      213: -4694809258882560340
+    second: Til_map_walls_9_111
+  - first:
+      213: 6710118644270591309
+    second: Til_map_walls_9_112
+  - first:
+      213: -7477293172891589969
+    second: Til_map_walls_9_113
+  - first:
+      213: -4092614650859262720
+    second: Til_map_walls_9_114
+  - first:
+      213: -2524120777168861393
+    second: Til_map_walls_9_115
+  - first:
+      213: -5597352933439203876
+    second: Til_map_walls_9_116
+  - first:
+      213: 3879985788604335778
+    second: Til_map_walls_9_117
+  - first:
+      213: -2308225813495930642
+    second: Til_map_walls_9_118
+  - first:
+      213: 1293051938042122835
+    second: Til_map_walls_9_119
+  - first:
+      213: -582237492401582219
+    second: Til_map_walls_9_120
+  - first:
+      213: -6307429044203260149
+    second: Til_map_walls_9_121
+  - first:
+      213: -5421891879379209177
+    second: Til_map_walls_9_122
+  - first:
+      213: 2346206333963870958
+    second: Til_map_walls_9_123
+  - first:
+      213: 272272875395473617
+    second: Til_map_walls_9_124
+  - first:
+      213: 710472978379972546
+    second: Til_map_walls_9_125
+  - first:
+      213: 6311863634536843386
+    second: Til_map_walls_9_126
+  - first:
+      213: 2620973707424153781
+    second: Til_map_walls_9_127
+  - first:
+      213: -4340490758019155411
+    second: Til_map_walls_9_128
+  - first:
+      213: -1391691407679300725
+    second: Til_map_walls_9_129
+  - first:
+      213: -471541310907162358
+    second: Til_map_walls_9_130
+  - first:
+      213: -1733957667084479260
+    second: Til_map_walls_9_131
+  - first:
+      213: 2952643080409135479
+    second: Til_map_walls_9_132
+  - first:
+      213: 6021459219521480788
+    second: Til_map_walls_9_133
+  - first:
+      213: 6475801489603817689
+    second: Til_map_walls_9_134
+  - first:
+      213: -1231205509940169667
+    second: Til_map_walls_9_135
+  - first:
+      213: 5460061715816036584
+    second: Til_map_walls_9_136
+  - first:
+      213: -671922980194522514
+    second: Til_map_walls_9_137
+  - first:
+      213: 1493144142797061648
+    second: Til_map_walls_9_138
+  - first:
+      213: 8372959546707206213
+    second: Til_map_walls_9_139
+  - first:
+      213: 8183171346811784697
+    second: Til_map_walls_9_140
+  - first:
+      213: -2103318909745509799
+    second: Til_map_walls_9_141
+  - first:
+      213: -5916288654766802444
+    second: Til_map_walls_9_142
+  - first:
+      213: 2801880252973917256
+    second: Til_map_walls_9_143
+  - first:
+      213: 6644578958124333023
+    second: Til_map_walls_9_144
+  - first:
+      213: 6885955365280959450
+    second: Til_map_walls_9_145
+  - first:
+      213: -8773126694945687913
+    second: Til_map_walls_9_146
+  - first:
+      213: 4292184578187099769
+    second: Til_map_walls_9_147
+  - first:
+      213: -2234386738680454327
+    second: Til_map_walls_9_148
+  - first:
+      213: -6039539998258897616
+    second: Til_map_walls_9_149
+  - first:
+      213: -582612632437804790
+    second: Til_map_walls_9_150
+  - first:
+      213: -7013501023061636183
+    second: Til_map_walls_9_151
+  - first:
+      213: -4640130789408303837
+    second: Til_map_walls_9_152
+  - first:
+      213: 3611079046696138652
+    second: Til_map_walls_9_153
+  - first:
+      213: -1741658789102726993
+    second: Til_map_walls_9_154
+  - first:
+      213: 429015697543779076
+    second: Til_map_walls_9_155
+  - first:
+      213: 3663823647130945887
+    second: Til_map_walls_9_156
+  - first:
+      213: -974132029656208001
+    second: Til_map_walls_9_157
+  - first:
+      213: -6979310551496161084
+    second: Til_map_walls_9_158
+  - first:
+      213: -6495229505537547226
+    second: Til_map_walls_9_159
+  - first:
+      213: -3667702827880682306
+    second: Til_map_walls_9_160
+  - first:
+      213: -7484407852044557896
+    second: Til_map_walls_9_161
+  - first:
+      213: -6137342996928413021
+    second: Til_map_walls_9_162
+  - first:
+      213: -3691180666362006540
+    second: Til_map_walls_9_163
+  - first:
+      213: 8415194574920120321
+    second: Til_map_walls_9_164
+  - first:
+      213: 2079733590833541040
+    second: Til_map_walls_9_165
+  - first:
+      213: 6638236808198838249
+    second: Til_map_walls_9_166
+  - first:
+      213: 7169203194298474261
+    second: Til_map_walls_9_167
+  - first:
+      213: 1426795121724385980
+    second: Til_map_walls_9_168
+  - first:
+      213: -7623837217282118241
+    second: Til_map_walls_9_169
+  - first:
+      213: 706747171671566092
+    second: Til_map_walls_9_170
+  - first:
+      213: -5085046443322081688
+    second: Til_map_walls_9_171
+  - first:
+      213: 5820770664730704172
+    second: Til_map_walls_9_172
+  - first:
+      213: 6721435255913917704
+    second: Til_map_walls_9_173
+  - first:
+      213: -8967704921856086326
+    second: Til_map_walls_9_174
+  - first:
+      213: -1986847489146221513
+    second: Til_map_walls_9_175
+  - first:
+      213: -7194979801530772338
+    second: Til_map_walls_9_176
+  - first:
+      213: 8776782495887596852
+    second: Til_map_walls_9_177
+  - first:
+      213: -6345492312432663774
+    second: Til_map_walls_9_178
+  - first:
+      213: 3917403373078730089
+    second: Til_map_walls_9_179
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Til_map_walls_9_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980b5f8773f146930800000000000000
+      internalID: 4135464680945987721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c1e864fe9c025a0800000000000000
+      internalID: -6548011828678616011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95101e448ea64c1d0800000000000000
+      internalID: -3331420278526770855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ae3395a8ec59520800000000000000
+      internalID: 2708297844530604615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9550cd8c6c33b650800000000000000
+      internalID: 6247403545025336731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed67d47bd0e7c8e0800000000000000
+      internalID: -1673121503382114837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a3dc25240042bb0800000000000000
+      internalID: -4961840604598420871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978a46699656fee80800000000000000
+      internalID: -8147181696720787335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626ec8da3773f0b80800000000000000
+      internalID: -8426455407814449626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b353993625f8180800000000000000
+      internalID: -9110972933421581525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_10
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d890fda0c92d82eb0800000000000000
+      internalID: -4744310639795697267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_11
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61c68aa3b05a37f0800000000000000
+      internalID: -632104065101807254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_12
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bcbabcb661875830800000000000000
+      internalID: 4059855867350793396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_13
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9b6e92f3ac37b50800000000000000
+      internalID: 6589833052407904727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_14
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0fa5cdc5644f980800000000000000
+      internalID: -8506096431548141314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31089c8493c8a0560800000000000000
+      internalID: 7280785925260017683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c462182ba0bd0460800000000000000
+      internalID: 7209612827648222409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a04bd8a4ded42a40800000000000000
+      internalID: 5342640062915625126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_18
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ed8689330dac7a0800000000000000
+      internalID: -6356039004061114851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_19
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ed7fdb27c7d9550800000000000000
+      internalID: 6169223896822701718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_20
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215b9ff5fa870c180800000000000000
+      internalID: -9097138552663591662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_21
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6c781e05eef1740800000000000000
+      internalID: 5125076932119480041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_22
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d34ec200bf63d900800000000000000
+      internalID: 708032368179299287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff349a91cd47c38a0800000000000000
+      internalID: -6324051288062868481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16264c67550b380f0800000000000000
+      internalID: -1115854401546460575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_25
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40256e62108bd6f70800000000000000
+      internalID: 9182197530365415940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_26
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf820138b01413b50800000000000000
+      internalID: 6571104849009584379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_27
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81edc9facc3513fe0800000000000000
+      internalID: -1211094686201225704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_28
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e79e5e2e8c32770800000000000000
+      internalID: 8584926191543746167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8181f5565649bc8e0800000000000000
+      internalID: -1672079673424668648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5590a141cda4e7fe0800000000000000
+      internalID: -1189430942488721067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_31
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca517c24a0f0b5c70800000000000000
+      internalID: 8960772420328166828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_32
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88e2056aa7e2ee80800000000000000
+      internalID: -8150697656562030449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_33
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9cefc9bc95ee490800000000000000
+      internalID: -7715130380591904277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_34
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a21cb556f2ee6df0800000000000000
+      internalID: -184960987047390555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_35
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597f9d5b36ab41030800000000000000
+      internalID: 3464598950770243477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3548ac475e837a200800000000000000
+      internalID: 191184067344630867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_37
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf3f8d7f3feb8070800000000000000
+      internalID: 8109838609979228107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_38
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e45b36ba91585f0800000000000000
+      internalID: -755169138611761555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_39
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ff63b81dd036300800000000000000
+      internalID: 244053998443102106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_40
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9602fb605696934a0800000000000000
+      internalID: -6613138695191060375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_41
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8676d4888422e37c0800000000000000
+      internalID: -4089793716686067864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_42
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d74f5b8efb22280800000000000000
+      internalID: -9069475693364740854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_43
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80355106126dbbe60800000000000000
+      internalID: 7979206603651240712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d79f24c597dcdc30800000000000000
+      internalID: 4385617175393572821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_45
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed82ffd31a154d490800000000000000
+      internalID: -7722457708061841186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_46
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0733f3ea0721ec150800000000000000
+      internalID: 5894669237443572592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_47
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b9dff47c3d50050800000000000000
+      internalID: 5766247750911761164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_48
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe862ebc3b180f7a0800000000000000
+      internalID: -6345429265745286929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_49
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735798c90e620dc90800000000000000
+      internalID: -7147169862496193225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_50
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129a3a736a4cd90a0800000000000000
+      internalID: -6873121238120421087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70479b0be79ef6f20800000000000000
+      internalID: 3418207372537590791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d938e19c3527bc550800000000000000
+      internalID: 6182160617678209949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_53
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41bb079269bd396b0800000000000000
+      internalID: -5290643699243369708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_54
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00aadfe465e91a300800000000000000
+      internalID: 261664346893822464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_55
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc44e8a7854cbfa10800000000000000
+      internalID: 1944363548432811211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_56
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d432b0a5dd29020800000000000000
+      internalID: 2347181734617107818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_57
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a6b30bd53f99d60800000000000000
+      internalID: 7897611005285067410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_58
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b104895d1815460800000000000000
+      internalID: 7228701631288712071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_59
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db78c6604eaf6dc0800000000000000
+      internalID: -3643501981893887015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Til_map_walls_9_60
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a83eb0389e5480f0800000000000000
+      internalID: -1115662799935227735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
