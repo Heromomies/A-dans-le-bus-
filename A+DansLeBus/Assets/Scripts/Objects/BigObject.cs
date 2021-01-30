@@ -1,24 +1,13 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class BigObject : MonoBehaviour
 {
-    #region singleton
 
-    public static BigObject _instance;
-
-
-    private void Awake()
-    {
-        if (_instance == null)
-        {
-            _instance = this;
-        }
-    }
-
-    #endregion
-    
     public List<GameObject> objectToInstantiate;
     public List<Transform> spawnPoints;
     
@@ -43,5 +32,15 @@ public class BigObject : MonoBehaviour
     {
         objectLife -= amount;
         Debug.Log(objectLife);
+    }
+
+    private void OnCollisionStay2D(Collision2D other)
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            Camera.main.DOShakePosition(0.5f, 0.2f, 90, 2);
+            Camera.main.DOShakeRotation(0.5f, .2f, 90, 2);
+            Damage(1);
+        }
     }
 }
