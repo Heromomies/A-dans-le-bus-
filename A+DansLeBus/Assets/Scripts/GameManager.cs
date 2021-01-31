@@ -91,6 +91,7 @@ public class GameManager : MonoBehaviour
                 objectsToCatch[i].transform.position = bigObjectTransform[randomPos].position;
                 bigObjectTransform[randomPos].GetComponent<BigObject>().hasObjectHidden = true;
                 bigObjectTransform[randomPos].GetComponent<BigObject>().objectHidden = objectsToCatch[i];
+                bigObjectTransform[randomPos].GetComponent<BigObject>().HideObject();
                 bigObjectTransform.RemoveAt(randomPos);
             }
         }

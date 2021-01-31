@@ -28,12 +28,16 @@ public class BigObject : MonoBehaviour
 
     private void Start()
     {
+
+    }
+
+    public void HideObject()
+    {
         if (objectHidden != null)
         {
             objectHidden.SetActive(false);
         }
     }
-
     // Update is called once per frame
     void Update()
     {
