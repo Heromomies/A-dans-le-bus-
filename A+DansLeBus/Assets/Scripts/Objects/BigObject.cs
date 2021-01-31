@@ -11,28 +11,33 @@ public class BigObject : MonoBehaviour
 
     public int objectLife;
 
-    private bool _playOnce = true;
+    [HideInInspector] public bool hasObjectHidden = false;
+    public bool canHideObject = false;
+
     private bool _canBeHitting = false;
+    private bool _playOnce = true;
 
-    public bool hasObjectHidden = false;
-    public GameObject objectHidden;
+    [HideInInspector] public GameObject objectHidden;
+    [HideInInspector] public new Transform transform;
+    [SerializeField] private GameObject vfxSplashWater;
 
-    public new Transform transform;
-    [SerializeField]
-    private GameObject vfxSplashWater;
     private void Awake()
     {
-        transform = gameObject.transform;
+        transform = canHideObject ? gameObject.transform : null;
     }
 
     private void Start()
+    {
+
+    }
+
+    public void HideObject()
     {
         if (objectHidden != null)
         {
             objectHidden.SetActive(false);
         }
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -43,7 +48,7 @@ public class BigObject : MonoBehaviour
             {
                 objectHidden.SetActive(true);
                 Vector3 transformPosition = objectHidden.transform.position;
-                transformPosition.y -= 1f;
+                transformPosition.y -= 3f;
             }
 
             _playOnce = false;
@@ -64,9 +69,10 @@ public class BigObject : MonoBehaviour
     {
         if (vfxSplashWater != null)
         {
-            GameObject vfx = Instantiate(vfxSplashWater, transform.position, Quaternion.identity);
+            GameObject vfx = Instantiate(vfxSplashWater, gameObject.transform.position, Quaternion.identity);
             Destroy(vfx, 3f);
         }
+
         particleExplosion.Play();
         GetComponent<SpriteRenderer>().sprite = null;
         GetComponent<PolygonCollider2D>().enabled = false;
@@ -77,7 +83,6 @@ public class BigObject : MonoBehaviour
     public void Damage(int amount)
     {
         objectLife -= amount;
-        Debug.Log(objectLife);
     }
 
     private void OnCollisionEnter2D(Collision2D other)

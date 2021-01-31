@@ -56,7 +56,10 @@ public class GameManager : MonoBehaviour
         bigObjects = FindObjectsOfType<BigObject>();
         for (int i = 0; i < bigObjects.Length; i++)
         {
-            bigObjectTransform.Add(bigObjects[i].transform);
+            if (bigObjects[i].transform != null)
+            {
+                bigObjectTransform.Add(bigObjects[i].transform);
+            }
         }
 
         for (int i = 0; i < numbersObjectsToFind; i++)
@@ -88,6 +91,7 @@ public class GameManager : MonoBehaviour
                 objectsToCatch[i].transform.position = bigObjectTransform[randomPos].position;
                 bigObjectTransform[randomPos].GetComponent<BigObject>().hasObjectHidden = true;
                 bigObjectTransform[randomPos].GetComponent<BigObject>().objectHidden = objectsToCatch[i];
+                bigObjectTransform[randomPos].GetComponent<BigObject>().HideObject();
                 bigObjectTransform.RemoveAt(randomPos);
             }
         }
