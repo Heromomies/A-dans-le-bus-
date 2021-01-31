@@ -11,18 +11,19 @@ public class BigObject : MonoBehaviour
 
     public int objectLife;
 
-    private bool _playOnce = true;
+    [HideInInspector] public bool hasObjectHidden = false;
+    public bool canHideObject = false;
+
     private bool _canBeHitting = false;
+    private bool _playOnce = true;
 
-    public bool hasObjectHidden = false;
-    public GameObject objectHidden;
+    [HideInInspector] public GameObject objectHidden;
+    [HideInInspector] public new Transform transform;
+    [SerializeField] private GameObject vfxSplashWater;
 
-    public new Transform transform;
-    [SerializeField]
-    private GameObject vfxSplashWater;
     private void Awake()
     {
-        transform = gameObject.transform;
+        transform = canHideObject ? gameObject.transform : null;
     }
 
     private void Start()
@@ -67,6 +68,7 @@ public class BigObject : MonoBehaviour
             GameObject vfx = Instantiate(vfxSplashWater, transform.position, Quaternion.identity);
             Destroy(vfx, 3f);
         }
+
         particleExplosion.Play();
         GetComponent<SpriteRenderer>().sprite = null;
         GetComponent<PolygonCollider2D>().enabled = false;
