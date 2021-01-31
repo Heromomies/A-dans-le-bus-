@@ -17,7 +17,7 @@ public class Timer_Cinématique : MonoBehaviour
     
     public void LoadSceneMain()
     {
-        textMeshProGui.gameObject.SetActive(false);
+       
         SceneManager.LoadScene(2, LoadSceneMode.Single);
     }
 }
