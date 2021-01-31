@@ -214,6 +214,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1861898987}
     m_Modifications:
+    - target: {fileID: 3336804519486380756, guid: 562b278d8a91e97428bcc25939910030,
+        type: 3}
+      propertyPath: canHideObject
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3336804519486380761, guid: 562b278d8a91e97428bcc25939910030,
         type: 3}
       propertyPath: m_Name
@@ -456,6 +461,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6033413361687837025, guid: 242724aa20c0d7441a97cda3fef98598,
+        type: 3}
+      propertyPath: canHideObject
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6579055053055095830, guid: 242724aa20c0d7441a97cda3fef98598,
         type: 3}
@@ -1994,6 +2004,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4338433508811127050, guid: 60f6e2cc9c5e87f4db7483290197dbd0,
+        type: 3}
+      propertyPath: canHideObject
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4338433508811127054, guid: 60f6e2cc9c5e87f4db7483290197dbd0,
         type: 3}
       propertyPath: m_SortingOrder
@@ -2321,6 +2336,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5243064680378191601, guid: 25c5e31236bb27c458d4a4ff2450395f,
+        type: 3}
+      propertyPath: canHideObject
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7944005892972438719, guid: 25c5e31236bb27c458d4a4ff2450395f,
         type: 3}
       propertyPath: m_Name
@@ -2583,6 +2603,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1861898987}
     m_Modifications:
+    - target: {fileID: 7478443528278365723, guid: 1b5541b073b0fda4285af117095bd19e,
+        type: 3}
+      propertyPath: canHideObject
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7478443528278365724, guid: 1b5541b073b0fda4285af117095bd19e,
         type: 3}
       propertyPath: m_Name
@@ -2707,6 +2732,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1960543866}
     m_Modifications:
+    - target: {fileID: 5922145794544197769, guid: fd2252d95731fb24f8f76a58bc000b9d,
+        type: 3}
+      propertyPath: canHideObject
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7701575213286339728, guid: fd2252d95731fb24f8f76a58bc000b9d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2797,6 +2827,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2130042790}
     m_Modifications:
+    - target: {fileID: 6866868783914414600, guid: 377cefa7ce44b7c4fa13209102307345,
+        type: 3}
+      propertyPath: canHideObject
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6944694251190524486, guid: 377cefa7ce44b7c4fa13209102307345,
         type: 3}
       propertyPath: m_SortingOrder
@@ -2881,6 +2916,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Fauteuille_livingroom
+      objectReference: {fileID: 0}
+    - target: {fileID: 5660640487014516203, guid: fd965eadf4aa6e749befbf7b7163e443,
+        type: 3}
+      propertyPath: canHideObject
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5660640487014516206, guid: fd965eadf4aa6e749befbf7b7163e443,
         type: 3}
@@ -4522,6 +4562,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2018141433}
     m_Modifications:
+    - target: {fileID: 3532526951801530531, guid: 21e8cd9bc688b944c926de7211bb344f,
+        type: 3}
+      propertyPath: canHideObject
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6288202924260514988, guid: 21e8cd9bc688b944c926de7211bb344f,
         type: 3}
       propertyPath: m_Name
@@ -4752,6 +4797,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 169005650}
     m_Modifications:
+    - target: {fileID: 3532526951801530531, guid: 21e8cd9bc688b944c926de7211bb344f,
+        type: 3}
+      propertyPath: canHideObject
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6288202924260514988, guid: 21e8cd9bc688b944c926de7211bb344f,
         type: 3}
       propertyPath: m_Name
@@ -5099,6 +5149,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1960543866}
     m_Modifications:
+    - target: {fileID: 6866868783914414600, guid: 377cefa7ce44b7c4fa13209102307345,
+        type: 3}
+      propertyPath: canHideObject
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6944694251190524486, guid: 377cefa7ce44b7c4fa13209102307345,
         type: 3}
       propertyPath: m_SortingOrder
@@ -5822,6 +5877,11 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 6526897113982670129, guid: e590504467c8e7a43beb48d91f9f7f3a,
+        type: 3}
+      propertyPath: canHideObject
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e590504467c8e7a43beb48d91f9f7f3a, type: 3}
 --- !u!4 &1256800193 stripped
@@ -6038,6 +6098,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: commode
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612355976822172483, guid: caf8141c52311b54c942c04c17557a83,
+        type: 3}
+      propertyPath: canHideObject
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8892703807292017711, guid: caf8141c52311b54c942c04c17557a83,
         type: 3}
@@ -6384,6 +6449,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1861898987}
     m_Modifications:
+    - target: {fileID: 1340093224997485792, guid: 0d308ef146a0dea46adc247ed0f1d362,
+        type: 3}
+      propertyPath: canHideObject
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3977691273336778636, guid: 0d308ef146a0dea46adc247ed0f1d362,
         type: 3}
       propertyPath: m_SortingOrder
@@ -6553,6 +6623,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 169005650}
     m_Modifications:
+    - target: {fileID: 6118456345478908876, guid: fbac687621ac7914ba830fb1e3594ce8,
+        type: 3}
+      propertyPath: canHideObject
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7861561142630769128, guid: fbac687621ac7914ba830fb1e3594ce8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7382,6 +7457,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2130042790}
     m_Modifications:
+    - target: {fileID: 302152470017832093, guid: 0c23ab2cc6383ed4ea66591321d10091,
+        type: 3}
+      propertyPath: canHideObject
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4143423067221850492, guid: 0c23ab2cc6383ed4ea66591321d10091,
         type: 3}
       propertyPath: m_SortingOrder
@@ -7660,6 +7740,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1410374283}
     m_Modifications:
+    - target: {fileID: 2588823431537381243, guid: 4a67538a2e1a407498ca793b9eeb9d1c,
+        type: 3}
+      propertyPath: canHideObject
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2588823431537381244, guid: 4a67538a2e1a407498ca793b9eeb9d1c,
         type: 3}
       propertyPath: m_Name
@@ -8065,6 +8150,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2018141433}
     m_Modifications:
+    - target: {fileID: 2031402954949116754, guid: 9a2bf5873fccf5640983a96147212285,
+        type: 3}
+      propertyPath: canHideObject
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3800583108811373084, guid: 9a2bf5873fccf5640983a96147212285,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9248,6 +9338,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2130042790}
     m_Modifications:
+    - target: {fileID: 5922145794544197769, guid: fd2252d95731fb24f8f76a58bc000b9d,
+        type: 3}
+      propertyPath: canHideObject
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7701575213286339728, guid: fd2252d95731fb24f8f76a58bc000b9d,
         type: 3}
       propertyPath: m_LocalPosition.x
