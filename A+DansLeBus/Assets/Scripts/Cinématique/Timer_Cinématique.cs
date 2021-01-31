@@ -10,6 +10,11 @@ public class Timer_Cinématique : MonoBehaviour
     public TextMeshProUGUI textMeshProGui;
 
 
+    private void Start()
+    {
+        Time.timeScale = 1;
+    }
+
     public void TextAppear()
     {
         textMeshProGui.gameObject.SetActive(true);
