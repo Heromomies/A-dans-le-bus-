@@ -129,6 +129,8 @@ public class GameManager : MonoBehaviour
 
         if (timerEndLevelMinute == 0 && timerEndLevelSecond <= 30 && _playOnce)
         {
+            SoundManager.instance.Play("MainFast");
+            SoundManager.instance.Stop("Main");
             _playOnce = false;
             Sequence mySequence = DOTween.Sequence();
             mySequence.Append(timerTxt.transform.DORotate(new Vector3(0, 0, 30), .1f));
