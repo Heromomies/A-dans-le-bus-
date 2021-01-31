@@ -55,7 +55,6 @@ public class GameManager : MonoBehaviour
     {
         SoundManager.instance.Play("Main");
         timerTxt.transform.DOScale(new Vector3(1.2f, 1.2f, 0), 1).SetLoops(100, LoopType.Yoyo);
-        Cursor.visible = false;
         bigObjects = FindObjectsOfType<BigObject>();
         for (int i = 0; i < bigObjects.Length; i++)
         {
