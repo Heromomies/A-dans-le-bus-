@@ -53,6 +53,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        SoundManager.instance.Play("Main");
         timerTxt.transform.DOScale(new Vector3(1.2f, 1.2f, 0), 1).SetLoops(100, LoopType.Yoyo);
         Cursor.visible = false;
         bigObjects = FindObjectsOfType<BigObject>();

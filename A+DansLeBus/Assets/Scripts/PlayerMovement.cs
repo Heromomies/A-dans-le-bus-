@@ -22,12 +22,14 @@ public class PlayerMovement : MonoBehaviour
     public float speed;
 
     private float _timerParticle = .3f;
+    private float _timerStep = .2f;
 
     private Rigidbody2D _rb;
 
     public ParticleSystem dust;
-    [SerializeField]
-    private Animator _animator; 
+
+    [SerializeField] private Animator _animator;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -45,10 +47,11 @@ public class PlayerMovement : MonoBehaviour
             xMove /= 2;
             yMove /= 2;
         }
+
         _animator.SetFloat("Horizontal", xMove);
         _animator.SetFloat("Vertical", yMove);
         _animator.SetFloat("Speed", _rb.velocity.sqrMagnitude);
-        
+
         _rb.AddForce(new Vector3(xMove * Time.deltaTime * speed, yMove * Time.deltaTime * speed, 0));
         if (xMove != 0 || yMove != 0)
         {
@@ -58,31 +61,56 @@ public class PlayerMovement : MonoBehaviour
                 dust.Play();
                 _timerParticle = .3f;
             }
+
+            _timerStep -= Time.deltaTime;
+            if (_timerStep <= 0)
+            {
+                int step = Random.Range(0, 4);
+                switch (step)
+                {
+                    case 1:
+                        SoundManager.instance.Play("Step1");
+                        return;
+                    case 2:
+                        SoundManager.instance.Play("Step2");
+                        return;
+                    case 3:
+                        SoundManager.instance.Play("Step3");
+                        return;
+                    case 4:
+                        SoundManager.instance.Play("Step4");
+                        return;
+                }
+
+                _timerStep = .2f;
+            }
         }
 
 
         Vector2 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-       
+
         if (Input.GetMouseButtonDown(0) && yMove > 0)
         {
             _animator.SetTrigger("Attack_Up");
+            SoundManager.instance.Play("Punch");
         }
 
-      else if (Input.GetMouseButtonDown(0) && yMove < 0)
+        else if (Input.GetMouseButtonDown(0) && yMove < 0)
         {
             _animator.SetTrigger("Attack_Down");
+            SoundManager.instance.Play("Punch");
         }
 
         else if (Input.GetMouseButtonDown(0) && xMove > 0)
         {
             _animator.SetTrigger("AttackRight");
+            SoundManager.instance.Play("Punch");
         }
 
-      else if (Input.GetMouseButtonDown(0) && xMove < 0)
+        else if (Input.GetMouseButtonDown(0) && xMove < 0)
         {
-            
             _animator.SetTrigger("Attack_Left");
+            SoundManager.instance.Play("Punch");
         }
     }
-    
 }

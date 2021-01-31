@@ -13,6 +13,7 @@ public class BigObject : MonoBehaviour
 
     [HideInInspector] public bool hasObjectHidden = false;
     public bool canHideObject = false;
+    public bool isWood = true;
 
     private bool _canBeHitting = false;
     private bool _playOnce = true;
@@ -44,7 +45,15 @@ public class BigObject : MonoBehaviour
                 objectHidden.SetActive(true);
                 objectHidden.transform.position -= new Vector3(0,.5f,0);
             }
-            
+
+            if (isWood)
+            {
+                SoundManager.instance.Play("CrashWood");
+            }
+            else
+            {
+                SoundManager.instance.Play("CrashGlass");
+            }
             _playOnce = false;
         }
 
