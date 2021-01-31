@@ -52,4 +52,9 @@ public class PauseMenu : MonoBehaviour
 	{
 		menuOptions.SetActive(true);
 	}
+
+	public void CloseOptions()
+	{
+		menuOptions.SetActive(false);
+	}
 }
