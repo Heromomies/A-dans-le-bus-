@@ -12409,6 +12409,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CanvasPause_Options
       objectReference: {fileID: 0}
+    - target: {fileID: 2385407306691015283, guid: 572b1cc8f2647af448d6c03929e0d292,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2385407306691015295, guid: 572b1cc8f2647af448d6c03929e0d292,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12513,6 +12518,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2385407307360677953, guid: 572b1cc8f2647af448d6c03929e0d292,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5724296344871595351, guid: 572b1cc8f2647af448d6c03929e0d292,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5724296344871595351, guid: 572b1cc8f2647af448d6c03929e0d292,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 572b1cc8f2647af448d6c03929e0d292, type: 3}
