@@ -18,12 +18,8 @@ public class SoundManager : MonoBehaviour
             s.audiosource.clip = s.audioclip;
             s.audiosource.volume = s.volume;
             s.audiosource.loop = s.loop;
+            s.audiosource.outputAudioMixerGroup = s.audioMixer;
         }
-    }
-
-    public void Start()
-    {
-        Play("main");
     }
 
     public void Play(string name)

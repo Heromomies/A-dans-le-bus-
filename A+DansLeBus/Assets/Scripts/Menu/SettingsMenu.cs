@@ -18,8 +18,8 @@ public class SettingsMenu : MonoBehaviour
     public void SetLevel() // Permet de changer le volume du son
     {
         float sliderValue = slider.value;
-        mixer.SetFloat("MusicVol", Mathf.Log10(sliderValue) * 20);
-        PlayerPrefs.SetFloat("MusicVolume", sliderValue);
+        mixer.SetFloat("Volume", Mathf.Log10(sliderValue) * 20);
+        PlayerPrefs.SetFloat("Volume", sliderValue);
     }
     
   
