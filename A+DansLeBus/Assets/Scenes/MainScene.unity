@@ -3778,6 +3778,8 @@ MonoBehaviour:
   timerEndLevelSecond: 0
   timerEndLevelMinute: 2
   numbersObjectsToFind: 5
+  spriteCheck: {fileID: 7844833655364109541, guid: 80f838d5a249fd849a59e4188e16fd09,
+    type: 3}
   timerTxt: {fileID: 512678816}
   panelWin: {fileID: 512678817}
   panelGameOver: {fileID: 1411145947}

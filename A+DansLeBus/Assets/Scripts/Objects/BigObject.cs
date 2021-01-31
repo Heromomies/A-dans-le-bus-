@@ -42,7 +42,7 @@ public class BigObject : MonoBehaviour
             if (hasObjectHidden)
             {
                 objectHidden.SetActive(true);
-                objectHidden.transform.position -= new Vector3(0,2f,0);
+                objectHidden.transform.position -= new Vector3(0,.5f,0);
             }
             
             _playOnce = false;

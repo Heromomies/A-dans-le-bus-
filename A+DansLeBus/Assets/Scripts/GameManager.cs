@@ -19,6 +19,8 @@ public class GameManager : MonoBehaviour
 
     private bool _playOnce = true;
 
+    public Sprite spriteCheck;
+
     public GameObject timerTxt;
     public GameObject panelWin, panelGameOver;
 
@@ -152,7 +154,7 @@ public class GameManager : MonoBehaviour
             {
                 if (objectsCatchByPlayer[j].GetComponent<SpriteRenderer>().sprite == imageObjectif[i].sprite)
                 {
-                    imageObjectif[i].sprite = null;
+                    imageObjectif[i].sprite = spriteCheck;
                 }
             }
         }
