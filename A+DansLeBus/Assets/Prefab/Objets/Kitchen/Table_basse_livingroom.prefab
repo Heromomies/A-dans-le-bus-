@@ -100,9 +100,11 @@ MonoBehaviour:
   particleExplosion: {fileID: 2246035673330870471}
   objectLife: 2
   hasObjectHidden: 0
+  canHideObject: 0
   objectHidden: {fileID: 0}
   transform: {fileID: 0}
-  vfxSplashWater: {fileID: 0}
+  vfxSplashWater: {fileID: 3572588909508765116, guid: 7168fddbcecfe7c429c364d297c0b9cb,
+    type: 3}
 --- !u!60 &2588823431537381240
 PolygonCollider2D:
   m_ObjectHideFlags: 0
