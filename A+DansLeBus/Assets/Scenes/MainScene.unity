@@ -4005,11 +4005,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1681137206176975839, guid: 38292bd63a5436a4cb758dd66df764de,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3094053208792841842, guid: 38292bd63a5436a4cb758dd66df764de,
+        type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5253055112420632522, guid: 38292bd63a5436a4cb758dd66df764de,
+        type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5749548133587477081, guid: 38292bd63a5436a4cb758dd66df764de,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 813665242}
+    - target: {fileID: 6137872169473595195, guid: 38292bd63a5436a4cb758dd66df764de,
+        type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7452009307154221838, guid: 38292bd63a5436a4cb758dd66df764de,
+        type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7585694941234761902, guid: 38292bd63a5436a4cb758dd66df764de,
+        type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7643251706194084373, guid: 38292bd63a5436a4cb758dd66df764de,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4119,6 +4149,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 7877830132406522408, guid: 38292bd63a5436a4cb758dd66df764de,
+        type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38292bd63a5436a4cb758dd66df764de, type: 3}
