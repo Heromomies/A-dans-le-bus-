@@ -3438,6 +3438,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 657228333}
   m_PrefabAsset: {fileID: 0}
+--- !u!198 &403121948 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 2246035673330870471, guid: 4a67538a2e1a407498ca793b9eeb9d1c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1710421616}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &407793848
 GameObject:
   m_ObjectHideFlags: 0
@@ -5849,11 +5855,13 @@ MonoBehaviour:
   timerEndLevelSecond: 0
   timerEndLevelMinute: 2
   numbersObjectsToFind: 5
+  win: 0
   spriteCheck: {fileID: 7844833655364109541, guid: 80f838d5a249fd849a59e4188e16fd09,
     type: 3}
   timerTxt: {fileID: 512678816}
   panelWin: {fileID: 512678817}
   panelGameOver: {fileID: 1411145947}
+  textVictory: {fileID: 940708228}
   allGameObjects:
   - {fileID: 1614040391}
   - {fileID: 1596203911}
@@ -7382,6 +7390,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3336804519486380763, guid: 562b278d8a91e97428bcc25939910030,
     type: 3}
   m_PrefabInstance: {fileID: 926129017}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &940708228 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7285884892606118433, guid: 38292bd63a5436a4cb758dd66df764de,
+    type: 3}
+  m_PrefabInstance: {fileID: 512678815}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &956449366
 PrefabInstance:
@@ -10859,7 +10873,7 @@ PrefabInstance:
     - target: {fileID: 2031402954949116754, guid: 9a2bf5873fccf5640983a96147212285,
         type: 3}
       propertyPath: canHideObject
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2031402954949116754, guid: 9a2bf5873fccf5640983a96147212285,
         type: 3}
@@ -10999,6 +11013,34 @@ Transform:
   m_Father: {fileID: 919175401}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1914061092 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2588823431537381244, guid: 4a67538a2e1a407498ca793b9eeb9d1c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1710421616}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1914061093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914061092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70344b50d7cabf74896303b97869096c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particleExplosion: {fileID: 403121948}
+  objectLife: 2
+  hasObjectHidden: 0
+  canHideObject: 0
+  isWood: 1
+  objectOn: {fileID: 0}
+  positionObjectOn: {fileID: 0}
+  objectHidden: {fileID: 0}
+  transform: {fileID: 0}
+  vfxSplashWater: {fileID: 0}
 --- !u!1 &1915874001 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4429647796969880763, guid: 2b63713a37158654e8d4bfe686b0261a,
@@ -11995,6 +12037,63 @@ Transform:
   - {fileID: 1701461770}
   m_Father: {fileID: 1505473751}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1964887930
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1964887932}
+  - component: {fileID: 1964887931}
+  m_Layer: 0
+  m_Name: DoorWinCollider
+  m_TagString: Door
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1964887931
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964887930}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!4 &1964887932
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964887930}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.486, y: 4.518, z: -449.50504}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1968305250
 GameObject:

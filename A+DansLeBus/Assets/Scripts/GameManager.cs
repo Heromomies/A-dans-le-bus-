@@ -17,12 +17,15 @@ public class GameManager : MonoBehaviour
 
     private string _txtSecond;
 
+    public bool win = false;
+    
     private bool _playOnce = true;
 
     public Sprite spriteCheck;
 
     public GameObject timerTxt;
     public GameObject panelWin, panelGameOver;
+    public GameObject textVictory;
 
     public List<GameObject> allGameObjects = new List<GameObject>();
     public List<GameObject> objectsToCatch = new List<GameObject>();
@@ -143,11 +146,8 @@ public class GameManager : MonoBehaviour
     {
         if (objectsCatchByPlayer.Count == objectsToCatch.Count)
         {
-            //TODO C'est la win
-            Debug.Log("VICTOIRE");
-            Time.timeScale = 0f;
-            panelWin.SetActive(true);
-            Cursor.visible = true;
+            win = true;
+            textVictory.SetActive(true);
         }
 
         for (int i = 0; i < imageObjectif.Count; i++)

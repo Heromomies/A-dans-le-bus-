@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -111,6 +113,15 @@ public class PlayerMovement : MonoBehaviour
         {
             _animator.SetTrigger("Attack_Left");
             SoundManager.instance.Play("Punch");
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Door") && GameManager.gm.win)
+        {
+            GameManager.gm.panelWin.SetActive(true);
+            Time.timeScale = 0f;
         }
     }
 }
