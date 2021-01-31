@@ -7,14 +7,16 @@ public class GameOver : MonoBehaviour
 {
     public void Restart()
     {
-        SceneManager.LoadScene(1, LoadSceneMode.Single);
         Time.timeScale = 1f;
+        SceneManager.LoadScene(1, LoadSceneMode.Single);
+       
     }
 
     public void Menu()
     {
-        SceneManager.LoadScene(0, LoadSceneMode.Single);
         Time.timeScale = 1f;
+        SceneManager.LoadScene(0, LoadSceneMode.Single);
+      
     }
 }
 
