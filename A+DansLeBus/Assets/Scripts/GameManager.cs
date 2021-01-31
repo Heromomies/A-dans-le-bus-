@@ -45,6 +45,7 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        Time.timeScale = 1;
         if (gm == null)
         {
             gm = this;
@@ -135,9 +136,9 @@ public class GameManager : MonoBehaviour
             SoundManager.instance.Stop("Main");
             _playOnce = false;
             Sequence mySequence = DOTween.Sequence();
-            mySequence.Append(timerTxt.transform.DORotate(new Vector3(0, 0, 30), .1f));
-            mySequence.Append(timerTxt.transform.DORotate(new Vector3(0, 0, -30), 1f).SetLoops(30, LoopType.Yoyo));
-            timerTxt.transform.DOScale(new Vector3(1.5f, 1.5f, 1), 1f).SetLoops(30, LoopType.Yoyo);
+            mySequence.Append(timerTxt.transform.DORotate(new Vector3(0, 0, 20), .1f));
+            mySequence.Append(timerTxt.transform.DORotate(new Vector3(0, 0, -20), 1f).SetLoops(30, LoopType.Yoyo));
+            timerTxt.transform.DOScale(new Vector3(1.3f, 1.3f, 1), 1f).SetLoops(30, LoopType.Yoyo);
             timerTxt.transform.GetComponent<TextMeshProUGUI>().DOColor(Color.red, 1).SetLoops(30, LoopType.Yoyo);
         }
     }

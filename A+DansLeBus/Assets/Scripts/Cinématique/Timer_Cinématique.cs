@@ -35,4 +35,15 @@ public class Timer_Cinématique : MonoBehaviour
     {
         SoundManager.instance.Play("Surprise");
     }
+
+    public void PlayKlaxon()
+    {
+        SoundManager.instance.Play("Klaxon");
+    }
+
+    public void PlayKlaxon2()
+    {
+        SoundManager.instance.Play("Klaxon");
+    }
+        
 }

@@ -5852,8 +5852,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed338f40b6ab78146a1e4cdf641e8e1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timerEndLevelSecond: 0
-  timerEndLevelMinute: 2
+  timerEndLevelSecond: 2
+  timerEndLevelMinute: 0
   numbersObjectsToFind: 5
   win: 0
   spriteCheck: {fileID: 7844833655364109541, guid: 80f838d5a249fd849a59e4188e16fd09,
