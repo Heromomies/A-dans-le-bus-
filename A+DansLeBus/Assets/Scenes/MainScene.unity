@@ -3750,8 +3750,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed338f40b6ab78146a1e4cdf641e8e1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timerEndLevelSecond: 0
-  timerEndLevelMinute: 2
+  timerEndLevelSecond: 32
+  timerEndLevelMinute: 0
   numbersObjectsToFind: 5
   timerTxt: {fileID: 512678816}
   panelWin: {fileID: 512678817}

@@ -1,7 +1,124 @@
 fileFormatVersion: 2
 guid: a68cbb13f52ecd142b087b2ca22e24b6
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3936254160405623748
+    second: sablier_sprite_shhet_0
+  - first:
+      213: -7346060642797033963
+    second: sablier_sprite_shhet_1
+  - first:
+      213: 7107238117762434385
+    second: sablier_sprite_shhet_2
+  - first:
+      213: -6559953770412608746
+    second: sablier_sprite_shhet_3
+  - first:
+      213: 9111366557934786927
+    second: sablier_sprite_shhet_4
+  - first:
+      213: -2435900354525401238
+    second: sablier_sprite_shhet_5
+  - first:
+      213: -2341996884843999547
+    second: sablier_sprite_shhet_6
+  - first:
+      213: 5342347055522935296
+    second: sablier_sprite_shhet_7
+  - first:
+      213: -6024774456858479059
+    second: sablier_sprite_shhet_8
+  - first:
+      213: -5904045395661584153
+    second: sablier_sprite_shhet_9
+  - first:
+      213: -8963412258775451025
+    second: sablier_sprite_shhet_10
+  - first:
+      213: 7815691949220191197
+    second: sablier_sprite_shhet_11
+  - first:
+      213: 6996807204477320145
+    second: sablier_sprite_shhet_12
+  - first:
+      213: -4389560377759075652
+    second: sablier_sprite_shhet_13
+  - first:
+      213: -4193448438359123763
+    second: sablier_sprite_shhet_14
+  - first:
+      213: -4539780431675902404
+    second: sablier_sprite_shhet_15
+  - first:
+      213: -6823126144191181073
+    second: sablier_sprite_shhet_16
+  - first:
+      213: -5484175995925905171
+    second: sablier_sprite_shhet_17
+  - first:
+      213: 3014933243564640124
+    second: sablier_sprite_shhet_18
+  - first:
+      213: -2044013023964404975
+    second: sablier_sprite_shhet_19
+  - first:
+      213: 692490383001080588
+    second: sablier_sprite_shhet_20
+  - first:
+      213: 5108636316548746928
+    second: sablier_sprite_shhet_21
+  - first:
+      213: 5670918178943041123
+    second: sablier_sprite_shhet_22
+  - first:
+      213: -100681372322282498
+    second: sablier_sprite_shhet_23
+  - first:
+      213: 3851798049066951093
+    second: sablier_sprite_shhet_24
+  - first:
+      213: -9152866652345413749
+    second: sablier_sprite_shhet_25
+  - first:
+      213: -4551042107279366938
+    second: sablier_sprite_shhet_26
+  - first:
+      213: 6031024720642849205
+    second: sablier_sprite_shhet_27
+  - first:
+      213: 4702668751600703794
+    second: sablier_sprite_shhet_28
+  - first:
+      213: 8995867577234875283
+    second: sablier_sprite_shhet_29
+  - first:
+      213: 8806984373819304132
+    second: sablier_sprite_shhet_30
+  - first:
+      213: 1678527720806360125
+    second: sablier_sprite_shhet_31
+  - first:
+      213: -8686876198644561403
+    second: sablier_sprite_shhet_32
+  - first:
+      213: -5856418228033368878
+    second: sablier_sprite_shhet_33
+  - first:
+      213: 1751610304116302463
+    second: sablier_sprite_shhet_34
+  - first:
+      213: -351956276770798705
+    second: sablier_sprite_shhet_35
+  - first:
+      213: -196183942861215163
+    second: sablier_sprite_shhet_36
+  - first:
+      213: 7137250448625402873
+    second: sablier_sprite_shhet_37
+  - first:
+      213: -8407797353166995510
+    second: sablier_sprite_shhet_38
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +157,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +188,840 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 6
+        width: 85
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c371a0cd4260a630800000000000000
+      internalID: 3936254160405623748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 6
+        width: 85
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516ea9734cc8d0a90800000000000000
+      internalID: -7346060642797033963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_2
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 6
+        width: 86
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155885f896bf1a260800000000000000
+      internalID: 7107238117762434385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_3
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 6
+        width: 85
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613729b4dcc56f4a0800000000000000
+      internalID: -6559953770412608746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_4
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 6
+        width: 87
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6993104c93127e70800000000000000
+      internalID: 9111366557934786927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_5
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 6
+        width: 85
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6fe3449881f13ed0800000000000000
+      internalID: -2435900354525401238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_6
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 6
+        width: 87
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce4dcddd3e8f7fd0800000000000000
+      internalID: -2341996884843999547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_7
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 6
+        width: 85
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0027c4f8754d32a40800000000000000
+      internalID: 5342347055522935296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_8
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 6
+        width: 87
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d267a175d83b36ca0800000000000000
+      internalID: -6024774456858479059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_9
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 6
+        width: 85
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e88fcd5efd901ea0800000000000000
+      internalID: -5904045395661584153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_10
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 6
+        width: 88
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6abe447a009b9380800000000000000
+      internalID: -8963412258775451025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_11
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 6
+        width: 85
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb56232b6ae67c60800000000000000
+      internalID: 7815691949220191197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_12
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 6
+        width: 88
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dbb3c0f417a91160800000000000000
+      internalID: 6996807204477320145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_13
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 6
+        width: 85
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb27a83e7162513c0800000000000000
+      internalID: -4389560377759075652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_14
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 6
+        width: 88
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc810b7fcd0edc5c0800000000000000
+      internalID: -4193448438359123763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_15
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 6
+        width: 86
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3630bb00c57ff0c0800000000000000
+      internalID: -4539780431675902404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_16
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 6
+        width: 88
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feecdcd1ce26f41a0800000000000000
+      internalID: -6823126144191181073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_17
+      rect:
+        serializedVersion: 2
+        x: 2197
+        y: 6
+        width: 86
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0cc15fcfa44e3b0800000000000000
+      internalID: -5484175995925905171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_18
+      rect:
+        serializedVersion: 2
+        x: 2324
+        y: 6
+        width: 88
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77cf2cafc137d920800000000000000
+      internalID: 3014933243564640124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_19
+      rect:
+        serializedVersion: 2
+        x: 2453
+        y: 6
+        width: 86
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113645efbf432a3e0800000000000000
+      internalID: -2044013023964404975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_20
+      rect:
+        serializedVersion: 2
+        x: 2580
+        y: 6
+        width: 88
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03572995583c9900800000000000000
+      internalID: 692490383001080588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_21
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 6
+        width: 86
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be4c86c9a585e640800000000000000
+      internalID: 5108636316548746928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_22
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 6
+        width: 88
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e7436b90623be40800000000000000
+      internalID: 5670918178943041123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_23
+      rect:
+        serializedVersion: 2
+        x: 2965
+        y: 6
+        width: 86
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef34b3743de4a9ef0800000000000000
+      internalID: -100681372322282498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_24
+      rect:
+        serializedVersion: 2
+        x: 3092
+        y: 6
+        width: 88
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1ad2dfae5547530800000000000000
+      internalID: 3851798049066951093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_25
+      rect:
+        serializedVersion: 2
+        x: 3221
+        y: 6
+        width: 85
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8fce6e064c7af080800000000000000
+      internalID: -9152866652345413749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_26
+      rect:
+        serializedVersion: 2
+        x: 3348
+        y: 6
+        width: 88
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4a4cdd05377d0c0800000000000000
+      internalID: -4551042107279366938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_27
+      rect:
+        serializedVersion: 2
+        x: 3477
+        y: 6
+        width: 85
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b93489970182b350800000000000000
+      internalID: 6031024720642849205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_28
+      rect:
+        serializedVersion: 2
+        x: 3604
+        y: 6
+        width: 88
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2395d73505c334140800000000000000
+      internalID: 4702668751600703794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_29
+      rect:
+        serializedVersion: 2
+        x: 3733
+        y: 6
+        width: 85
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393e98b36edb7dc70800000000000000
+      internalID: 8995867577234875283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_30
+      rect:
+        serializedVersion: 2
+        x: 3860
+        y: 6
+        width: 87
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c86ae760a1b83a70800000000000000
+      internalID: 8806984373819304132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_31
+      rect:
+        serializedVersion: 2
+        x: 3989
+        y: 6
+        width: 85
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d342f40a1145b4710800000000000000
+      internalID: 1678527720806360125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_32
+      rect:
+        serializedVersion: 2
+        x: 4116
+        y: 6
+        width: 87
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50acef35f14027780800000000000000
+      internalID: -8686876198644561403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_33
+      rect:
+        serializedVersion: 2
+        x: 4245
+        y: 6
+        width: 85
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcc2f576a2d9bea0800000000000000
+      internalID: -5856418228033368878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_34
+      rect:
+        serializedVersion: 2
+        x: 4372
+        y: 6
+        width: 87
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7224c98a48fe4810800000000000000
+      internalID: 1751610304116302463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_35
+      rect:
+        serializedVersion: 2
+        x: 4501
+        y: 6
+        width: 85
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f838b9a81a99d1bf0800000000000000
+      internalID: -351956276770798705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_36
+      rect:
+        serializedVersion: 2
+        x: 4629
+        y: 6
+        width: 86
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a2f1f4eb3074df0800000000000000
+      internalID: -196183942861215163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_37
+      rect:
+        serializedVersion: 2
+        x: 4757
+        y: 6
+        width: 85
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3805fd77b9c0360800000000000000
+      internalID: 7137250448625402873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sablier_sprite_shhet_38
+      rect:
+        serializedVersion: 2
+        x: 4886
+        y: 6
+        width: 85
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acff20d8ad0815b80800000000000000
+      internalID: -8407797353166995510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
