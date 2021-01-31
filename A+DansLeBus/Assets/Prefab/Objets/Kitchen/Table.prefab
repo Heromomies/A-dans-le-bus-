@@ -132,6 +132,7 @@ MonoBehaviour:
   particleExplosion: {fileID: 7642882929732590434}
   objectLife: 2
   hasObjectHidden: 0
+  canHideObject: 0
   objectHidden: {fileID: 0}
   transform: {fileID: 0}
   vfxSplashWater: {fileID: 0}
@@ -236,6 +237,11 @@ PrefabInstance:
         type: 3}
       propertyPath: ShapeModule.radius.value
       value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8540565345290238187, guid: a876f68cf9c427c49809a5e7e85914d4,
+        type: 3}
+      propertyPath: ShapeModule.m_Rotation.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a876f68cf9c427c49809a5e7e85914d4, type: 3}
