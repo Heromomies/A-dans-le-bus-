@@ -26,11 +26,6 @@ public class BigObject : MonoBehaviour
         transform = canHideObject ? gameObject.transform : null;
     }
 
-    private void Start()
-    {
-
-    }
-
     public void HideObject()
     {
         if (objectHidden != null)
@@ -47,10 +42,9 @@ public class BigObject : MonoBehaviour
             if (hasObjectHidden)
             {
                 objectHidden.SetActive(true);
-                Vector3 transformPosition = objectHidden.transform.position;
-                transformPosition.y -= 3f;
+                objectHidden.transform.position -= new Vector3(0,2f,0);
             }
-
+            
             _playOnce = false;
         }
 
