@@ -37,7 +37,7 @@ public class PickUpObject : MonoBehaviour
             isPickable = false;
             if (vfx_liquide != null)
             {
-                GameObject vfx = Instantiate(vfx_liquide, transform.position, Quaternion.identity);
+                GameObject vfx = Instantiate(vfx_liquide, gameObject.transform.position, Quaternion.identity);
                 Destroy(vfx, 3f);
             }
 
