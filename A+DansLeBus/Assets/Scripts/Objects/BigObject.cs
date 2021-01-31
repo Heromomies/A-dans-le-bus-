@@ -44,7 +44,7 @@ public class BigObject : MonoBehaviour
             {
                 objectHidden.SetActive(true);
                 Vector3 transformPosition = objectHidden.transform.position;
-                transformPosition.y -= 1f;
+                transformPosition.y -= 3f;
             }
 
             _playOnce = false;
@@ -65,7 +65,7 @@ public class BigObject : MonoBehaviour
     {
         if (vfxSplashWater != null)
         {
-            GameObject vfx = Instantiate(vfxSplashWater, transform.position, Quaternion.identity);
+            GameObject vfx = Instantiate(vfxSplashWater, gameObject.transform.position, Quaternion.identity);
             Destroy(vfx, 3f);
         }
 
@@ -79,7 +79,6 @@ public class BigObject : MonoBehaviour
     public void Damage(int amount)
     {
         objectLife -= amount;
-        Debug.Log(objectLife);
     }
 
     private void OnCollisionEnter2D(Collision2D other)

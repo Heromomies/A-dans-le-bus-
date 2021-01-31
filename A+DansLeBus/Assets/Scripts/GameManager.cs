@@ -68,6 +68,7 @@ public class GameManager : MonoBehaviour
             objectsToCatch.Add(allGameObjects[randomObjectIndex]);
 
             imageObjectif[i].sprite = allGameObjects[randomObjectIndex].GetComponent<SpriteRenderer>().sprite;
+            Debug.Log(imageObjectif[i] + " image objectif");
 
             if (allGameObjects[randomObjectIndex].GetComponent<PickUpObject>() != null)
             {
