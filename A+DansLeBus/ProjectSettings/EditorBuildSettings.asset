@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: "Assets/Scenes/SceneCin\xE9matique.unity"
+    guid: 1ca87ccf71d43ba49821b7b57616bf86
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: a4612a2f2a791ce4fb5b0e287c02f097
   m_configObjects: {}
