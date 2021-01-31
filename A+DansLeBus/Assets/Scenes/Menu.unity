@@ -275,6 +275,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 24300002, guid: 0bed3b33cc09da54ca69541f5ac4c739,
         type: 2}
+    - target: {fileID: 8793135025624062510, guid: 66d9b63fcb135824b86e2676b6ae3c6c,
+        type: 3}
+      propertyPath: sounds.Array.data[0].loop
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8793135025624062511, guid: 66d9b63fcb135824b86e2676b6ae3c6c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -710,7 +715,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.15400001}
   m_AnchorMax: {x: 0.5, y: 0.15400001}
-  m_AnchoredPosition: {x: 0, y: -1.8550415}
+  m_AnchoredPosition: {x: 0, y: -1.8549805}
   m_SizeDelta: {x: 92.47414, y: 59.061592}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &686129520

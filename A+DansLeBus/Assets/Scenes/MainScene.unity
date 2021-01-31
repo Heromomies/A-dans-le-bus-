@@ -4917,9 +4917,9 @@ Transform:
   - {fileID: 1596059100}
   - {fileID: 129263155}
   - {fileID: 50619023}
+  - {fileID: 2069412774}
   - {fileID: 808507116}
   - {fileID: 1463007908}
-  - {fileID: 2069412774}
   m_Father: {fileID: 1333522590}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5231,9 +5231,9 @@ Transform:
   - {fileID: 1048363963}
   - {fileID: 560851109}
   - {fileID: 1503385057}
+  - {fileID: 1920910929}
   - {fileID: 357272667}
   - {fileID: 799293327}
-  - {fileID: 1920910929}
   m_Father: {fileID: 1505473751}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5762,8 +5762,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed338f40b6ab78146a1e4cdf641e8e1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timerEndLevelSecond: 2
-  timerEndLevelMinute: 0
+  timerEndLevelSecond: 30
+  timerEndLevelMinute: 1
   numbersObjectsToFind: 5
   win: 0
   spriteCheck: {fileID: 7844833655364109541, guid: 80f838d5a249fd849a59e4188e16fd09,
