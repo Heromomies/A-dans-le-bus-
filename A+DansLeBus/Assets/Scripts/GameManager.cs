@@ -53,8 +53,8 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        SoundManager.instance.Play("Main");
         timerTxt.transform.DOScale(new Vector3(1.2f, 1.2f, 0), 1).SetLoops(100, LoopType.Yoyo);
-        Cursor.visible = false;
         bigObjects = FindObjectsOfType<BigObject>();
         for (int i = 0; i < bigObjects.Length; i++)
         {
@@ -128,6 +128,8 @@ public class GameManager : MonoBehaviour
 
         if (timerEndLevelMinute == 0 && timerEndLevelSecond <= 30 && _playOnce)
         {
+            SoundManager.instance.Play("MainFast");
+            SoundManager.instance.Stop("Main");
             _playOnce = false;
             Sequence mySequence = DOTween.Sequence();
             mySequence.Append(timerTxt.transform.DORotate(new Vector3(0, 0, 30), .1f));

@@ -32,6 +32,7 @@ public class PickUpObject : MonoBehaviour
         if (_canBePicked && Input.GetMouseButtonDown(0) && isPickable && _player != null &&
             _player.CompareTag("Player"))
         {
+            SoundManager.instance.Play("PickObject");
             GameManager.gm.objectsCatchByPlayer.Add(gameObject);
             GameManager.gm.CheckIfVictory();
             isPickable = false;

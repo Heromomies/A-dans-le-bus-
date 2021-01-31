@@ -20,4 +20,19 @@ public class Timer_Cinématique : MonoBehaviour
        
         SceneManager.LoadScene(2, LoadSceneMode.Single);
     }
+
+    public void PlayRonflement()
+    {
+        SoundManager.instance.Play("Ronflement");
+    }
+
+    public void PlayBaillement()
+    {
+        SoundManager.instance.Play("Baillement");
+    }
+
+    public void PlaySurprise()
+    {
+        SoundManager.instance.Play("Surprise");
+    }
 }
