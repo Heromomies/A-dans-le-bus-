@@ -67,8 +67,8 @@ public class BigObject : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
-                Camera.main.DOShakePosition(0.5f, .05f, 90, .5f);
-                Camera.main.DOShakeRotation(0.5f, .05f, 90, .5f);
+                Camera.main.DOShakePosition(0.2f, .05f, 90, .5f);
+                Camera.main.DOShakeRotation(0.2f, .05f, 90, .5f);
                 Damage(1);
             }
         }
