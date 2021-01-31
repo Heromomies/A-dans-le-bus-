@@ -9,7 +9,8 @@ public class PauseMenu : MonoBehaviour
 
 	public GameObject pauseMenuUI1;
 	//public GameObject choseLevelPanel;
-	
+
+	public GameObject menuOptions;
 	void Update() // Appuyer sur la touche Echap pour : 
 	{
 		if (Input.GetKeyDown(KeyCode.Escape))
@@ -45,5 +46,10 @@ public class PauseMenu : MonoBehaviour
 	{
 		Time.timeScale = 1f;
 		SceneManager.LoadScene(0);
+	}
+
+	public void Options()
+	{
+		menuOptions.SetActive(true);
 	}
 }
